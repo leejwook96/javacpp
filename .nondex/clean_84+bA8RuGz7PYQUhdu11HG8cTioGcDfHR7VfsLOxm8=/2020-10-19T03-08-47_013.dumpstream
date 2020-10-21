@@ -1,0 +1,12 @@
+# Created at 2020-10-19T03:08:47.014
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:714:23: warning: unused variable 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_call_callbacks' [-Wunused-variable]
+
+# Created at 2020-10-19T03:08:47.014
+static signed char* (*JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_call_callbacks[10])(signed char* arg0) = {
+
+# Created at 2020-10-19T03:08:47.014
+                      ^
+
+# Created at 2020-10-19T03:08:47.187
+1 warning generated.
+

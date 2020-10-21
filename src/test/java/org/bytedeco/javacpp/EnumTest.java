@@ -35,10 +35,10 @@ import static org.junit.Assert.*;
  *
  * @author Samuel Audet
  */
-@Platform(compiler = "cpp11", include = "EnumTest.h")
+@Platform(extension = {"-ext1","-ext2"}, compiler = "cpp11", include = "EnumTest.h")
 public class EnumTest {
 
-    public static enum BoolEnum {
+    @Name("BoolEnum") public static enum BoolEnum {
         BOOL(true);
 
         public final boolean value;
@@ -52,21 +52,21 @@ public class EnumTest {
         private ByteEnum(byte v) { this.value = v; }
     }
 
-    public static enum ShortEnum {
+    @Name("ShortEnum") public static enum ShortEnum {
         SHORT((short)456);
 
         public final short value;
         private ShortEnum(short v) { this.value = v; }
     }
 
-    public static enum IntEnum {
+    @Name("IntEnum") public static enum IntEnum {
         INT(789);
 
         public final int value;
         private IntEnum(int v) { this.value = v; }
     }
 
-    public static enum LongEnum {
+    @Name("LongEnum") public static enum LongEnum {
         LONG(101112);
 
         public final long value;
@@ -79,6 +79,7 @@ public class EnumTest {
         private native void allocate();
 
         public LongEnum call(ByteEnum e) {
+            System.out.println(82);
             assertEquals(42, e.value);
             return LongEnum.LONG;
         }
@@ -93,7 +94,13 @@ public class EnumTest {
         System.out.println("Builder");
         Class c = EnumTest.class;
         Builder builder = new Builder().classesOrPackages(c.getName());
+        builder.deleteJniFiles(false);
         File[] outputFiles = builder.build();
+
+        System.out.println(100);
+        for (File f: outputFiles) {
+            System.out.println(f.getCanonicalPath());
+        }
 
         System.out.println("Loader");
         Loader.load(c);
@@ -101,6 +108,9 @@ public class EnumTest {
 
     @Test public void testEnum() {
         System.out.println("Enum");
+        ByteEnum b = ByteEnum.BYTE;
+        System.out.println(b);
+        System.out.println((byte)123);
 
         assertEquals(true, Char2Bool(ByteEnum.BYTE).value);
         assertEquals(123, Char2Short(ByteEnum.BYTE).value);

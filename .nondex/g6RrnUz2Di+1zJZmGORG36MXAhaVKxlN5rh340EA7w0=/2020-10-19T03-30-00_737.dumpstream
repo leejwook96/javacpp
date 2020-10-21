@@ -1,0 +1,216 @@
+# Created at 2020-10-19T03:30:23.615
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:598:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:23.615
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:30:23.616
+    ^
+
+# Created at 2020-10-19T03:30:23.616
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:617:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:30:23.616
+end:
+
+# Created at 2020-10-19T03:30:23.616
+^
+
+# Created at 2020-10-19T03:30:23.616
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:617:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:23.617
+end:
+
+# Created at 2020-10-19T03:30:23.617
+   ^
+
+# Created at 2020-10-19T03:30:23.617
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:627:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:23.617
+    } else {
+
+# Created at 2020-10-19T03:30:23.617
+      ^
+
+# Created at 2020-10-19T03:30:23.617
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:630:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:23.617
+    return rarg;
+
+# Created at 2020-10-19T03:30:23.617
+    ^
+
+# Created at 2020-10-19T03:30:23.617
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:663:44: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:30:23.618
+        int (* rptr)(const char* arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:30:23.618
+                                           ^
+
+# Created at 2020-10-19T03:30:23.618
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:676:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:30:23.618
+}
+
+# Created at 2020-10-19T03:30:23.618
+^
+
+# Created at 2020-10-19T03:30:23.620
+7 errors generated.
+
+# Created at 2020-10-19T03:30:24.381
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:615:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:24.381
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:30:24.381
+    ^
+
+# Created at 2020-10-19T03:30:24.382
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:637:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:30:24.382
+end:
+
+# Created at 2020-10-19T03:30:24.382
+^
+
+# Created at 2020-10-19T03:30:24.382
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:637:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:24.383
+end:
+
+# Created at 2020-10-19T03:30:24.383
+   ^
+
+# Created at 2020-10-19T03:30:24.383
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:642:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:24.383
+    if (exc != NULL) {
+
+# Created at 2020-10-19T03:30:24.383
+    ^
+
+# Created at 2020-10-19T03:30:24.383
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:651:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:24.383
+    } else {
+
+# Created at 2020-10-19T03:30:24.384
+      ^
+
+# Created at 2020-10-19T03:30:24.384
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:654:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:24.384
+    return rval;
+
+# Created at 2020-10-19T03:30:24.384
+    ^
+
+# Created at 2020-10-19T03:30:24.384
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:659:50: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:30:24.384
+        ::LongEnum (* rptr)(::CharEnum arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:30:24.384
+                                                 ^
+
+# Created at 2020-10-19T03:30:24.384
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:758:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:30:24.384
+}
+
+# Created at 2020-10-19T03:30:24.385
+^
+
+# Created at 2020-10-19T03:30:24.389
+8 errors generated.
+
+# Created at 2020-10-19T03:30:25.167
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:564:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:25.167
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:30:25.168
+    ^
+
+# Created at 2020-10-19T03:30:25.169
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:590:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:30:25.169
+end:
+
+# Created at 2020-10-19T03:30:25.169
+^
+
+# Created at 2020-10-19T03:30:25.169
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:590:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:25.169
+end:
+
+# Created at 2020-10-19T03:30:25.169
+   ^
+
+# Created at 2020-10-19T03:30:25.169
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:592:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:25.169
+    if (exc != NULL) {
+
+# Created at 2020-10-19T03:30:25.169
+    ^
+
+# Created at 2020-10-19T03:30:25.170
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:601:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:25.170
+    } else {
+
+# Created at 2020-10-19T03:30:25.170
+      ^
+
+# Created at 2020-10-19T03:30:25.170
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:604:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:30:25.170
+    return rptr;
+
+# Created at 2020-10-19T03:30:25.170
+    ^
+
+# Created at 2020-10-19T03:30:25.170
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:609:54: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:30:25.170
+        signed char* (* rptr)(signed char* arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:30:25.170
+                                                     ^
+
+# Created at 2020-10-19T03:30:25.172
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:987:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:30:25.172
+}
+
+# Created at 2020-10-19T03:30:25.173
+^
+
+# Created at 2020-10-19T03:30:25.177
+8 errors generated.
+

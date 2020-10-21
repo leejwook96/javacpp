@@ -41,7 +41,7 @@ import static org.junit.Assert.*;
  *
  * @author Samuel Audet
  */
-@Platform(compiler = "cpp11", include = "BufferTest.h")
+@Platform(extension = {"-ext1","-ext2"}, compiler = "cpp11", include = "BufferTest.h")
 public class BufferTest {
 
     public static class BufferCallback extends FunctionPointer {
@@ -80,7 +80,7 @@ public class BufferTest {
         Class c = BufferTest.class;
         Builder builder = new Builder().classesOrPackages(c.getName());
         File[] outputFiles = builder.build();
-
+        builder.deleteJniFiles(false);
         System.out.println("Loader");
         Loader.load(c);
     }

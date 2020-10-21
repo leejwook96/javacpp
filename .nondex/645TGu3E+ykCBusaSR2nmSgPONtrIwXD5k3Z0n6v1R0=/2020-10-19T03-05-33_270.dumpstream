@@ -1,0 +1,75 @@
+# Created at 2020-10-19T03:05:36.365
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:567:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:05:36.365
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:05:36.366
+    ^
+
+# Created at 2020-10-19T03:05:36.366
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:586:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:05:36.366
+end:
+
+# Created at 2020-10-19T03:05:36.366
+^
+
+# Created at 2020-10-19T03:05:36.366
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:586:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:05:36.367
+end:
+
+# Created at 2020-10-19T03:05:36.367
+   ^
+
+# Created at 2020-10-19T03:05:36.367
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:596:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:05:36.367
+    } else {
+
+# Created at 2020-10-19T03:05:36.367
+      ^
+
+# Created at 2020-10-19T03:05:36.367
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:599:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:05:36.367
+    return rarg;
+
+# Created at 2020-10-19T03:05:36.367
+    ^
+
+# Created at 2020-10-19T03:05:36.368
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:605:9: error: non-void function 'Java_org_bytedeco_javacpp_PointerTest_00024TestFunction_put' should return a value [-Wreturn-type]
+
+# Created at 2020-10-19T03:05:36.368
+        return;
+
+# Created at 2020-10-19T03:05:36.368
+        ^
+
+# Created at 2020-10-19T03:05:36.368
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:645:44: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:05:36.368
+        int (* rptr)(const char* arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:05:36.368
+                                           ^
+
+# Created at 2020-10-19T03:05:36.368
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:677:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:05:36.368
+}
+
+# Created at 2020-10-19T03:05:36.369
+^
+
+# Created at 2020-10-19T03:05:36.371
+8 errors generated.
+

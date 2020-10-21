@@ -610,8 +610,10 @@ public class Builder {
                     String libraryName = libraryNames[libraryNames.length - 1];
                     logger.info("Compiling " + outputPath.getPath() + File.separator + libraryName);
                     exitValue = compile(sourceFilenames, libraryName, p, outputPath);
+                    System.out.println( );
                     outputFiles = new File[] {new File(outputPath, libraryName)};
                 }
+                System.out.println(620);
                 if (exitValue == 0) {
                     for (int i = sourceFilenames.length - 1; i >= 0; i--) {
                         if (i == 0 && !last) {
@@ -627,6 +629,7 @@ public class Builder {
                 } else {
                     throw new RuntimeException("Process exited with an error: " + exitValue);
                 }
+                System.out.println(636);
             } else {
                 outputFiles = new File[sourceFilenames.length];
                 for (int i = 0; i < sourceFilenames.length; i++) {
@@ -662,7 +665,8 @@ public class Builder {
     }
 
     /**
-     * Stores all the files in the given JAR file. Also attempts to root the paths
+     * Stores a
+     * ll the files in the given JAR file. Also attempts to root the paths
      * of the filenames to each element of a list of classpaths.
      *
      * @param jarFile the JAR file to create
@@ -1142,6 +1146,7 @@ public class Builder {
             }
             classList.addAll(p.getEffectiveClasses());
         }
+
         int count = 0;
         for (String name : allNames) {
             LinkedHashSet<Class> executableClassSet = executableMap.get(name);
@@ -1171,11 +1176,14 @@ public class Builder {
                 }
             } else if (libraryClassSet != null) {
                 classArray = libraryClassSet.toArray(new Class[libraryClassSet.size()]);
+                System.out.println(1180);
                 files = generateAndCompile(classArray, name, count == 0, count == libraryMap.size() - 1);
+                System.out.println(1182);
                 count++;
             } else {
                 continue;
             }
+            System.out.println(1185);
 
             if (files != null && files.length > 0) {
                 // files[0] might be null if "jnijavacpp" was not generated and compiled
@@ -1186,6 +1194,7 @@ public class Builder {
                         break;
                     }
                 }
+
                 outputFiles.addAll(Arrays.asList(files));
                 if (copyLibs) {
                     // Do not copy library files from inherit properties ...

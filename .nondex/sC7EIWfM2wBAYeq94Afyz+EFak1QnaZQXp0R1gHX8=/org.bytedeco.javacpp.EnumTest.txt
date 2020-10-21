@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.bytedeco.javacpp.EnumTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.008 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+org.bytedeco.javacpp.EnumTest  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.EnumTest.setUpClass(EnumTest.java:98)
+

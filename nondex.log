@@ -1,0 +1,1779 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< org.bytedeco:javacpp >------------------------
+[INFO] Building JavaCPP 1.5.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex-maven-plugin:1.1.2:nondex (default-cli) > test-compile @ javacpp >>>
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom
+Progress (1): 2.7/25 kBProgress (1): 5.5/25 kBProgress (1): 8.2/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 22/25 kBProgress (1): 25/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.pom (25 kB at 106 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar
+Progress (1): 2.7/383 kBProgress (1): 5.5/383 kBProgress (1): 8.2/383 kBProgress (1): 11/383 kB Progress (1): 14/383 kBProgress (1): 16/383 kBProgress (1): 19/383 kBProgress (1): 22/383 kBProgress (1): 25/383 kBProgress (1): 27/383 kBProgress (1): 30/383 kBProgress (1): 33/383 kBProgress (1): 36/383 kBProgress (1): 38/383 kBProgress (1): 41/383 kBProgress (1): 44/383 kBProgress (1): 47/383 kBProgress (1): 49/383 kBProgress (1): 52/383 kBProgress (1): 55/383 kBProgress (1): 58/383 kBProgress (1): 60/383 kBProgress (1): 63/383 kBProgress (1): 66/383 kBProgress (1): 69/383 kBProgress (1): 71/383 kBProgress (1): 74/383 kBProgress (1): 77/383 kBProgress (1): 80/383 kBProgress (1): 82/383 kBProgress (1): 85/383 kBProgress (1): 88/383 kBProgress (1): 90/383 kBProgress (1): 93/383 kBProgress (1): 96/383 kBProgress (1): 99/383 kBProgress (1): 101/383 kBProgress (1): 104/383 kBProgress (1): 107/383 kBProgress (1): 110/383 kBProgress (1): 112/383 kBProgress (1): 115/383 kBProgress (1): 118/383 kBProgress (1): 121/383 kBProgress (1): 123/383 kBProgress (1): 126/383 kBProgress (1): 129/383 kBProgress (1): 132/383 kBProgress (1): 134/383 kBProgress (1): 137/383 kBProgress (1): 140/383 kBProgress (1): 143/383 kBProgress (1): 145/383 kBProgress (1): 148/383 kBProgress (1): 151/383 kBProgress (1): 154/383 kBProgress (1): 156/383 kBProgress (1): 159/383 kBProgress (1): 162/383 kBProgress (1): 165/383 kBProgress (1): 167/383 kBProgress (1): 170/383 kBProgress (1): 173/383 kBProgress (1): 175/383 kBProgress (1): 178/383 kBProgress (1): 181/383 kBProgress (1): 184/383 kBProgress (1): 186/383 kBProgress (1): 189/383 kBProgress (1): 192/383 kBProgress (1): 195/383 kBProgress (1): 197/383 kBProgress (1): 200/383 kBProgress (1): 203/383 kBProgress (1): 206/383 kBProgress (1): 208/383 kBProgress (1): 211/383 kBProgress (1): 214/383 kBProgress (1): 217/383 kBProgress (1): 219/383 kBProgress (1): 222/383 kBProgress (1): 225/383 kBProgress (1): 228/383 kBProgress (1): 230/383 kBProgress (1): 233/383 kBProgress (1): 236/383 kBProgress (1): 239/383 kBProgress (1): 241/383 kBProgress (1): 244/383 kBProgress (1): 247/383 kBProgress (1): 250/383 kBProgress (1): 252/383 kBProgress (1): 255/383 kBProgress (1): 258/383 kBProgress (1): 260/383 kBProgress (1): 263/383 kBProgress (1): 266/383 kBProgress (1): 269/383 kBProgress (1): 271/383 kBProgress (1): 274/383 kBProgress (1): 277/383 kBProgress (1): 281/383 kBProgress (1): 285/383 kBProgress (1): 289/383 kBProgress (1): 293/383 kBProgress (1): 297/383 kBProgress (1): 302/383 kBProgress (1): 306/383 kBProgress (1): 310/383 kBProgress (1): 314/383 kBProgress (1): 318/383 kBProgress (1): 322/383 kBProgress (1): 326/383 kBProgress (1): 330/383 kBProgress (1): 334/383 kBProgress (1): 338/383 kBProgress (1): 342/383 kBProgress (1): 347/383 kBProgress (1): 351/383 kBProgress (1): 355/383 kBProgress (1): 359/383 kBProgress (1): 363/383 kBProgress (1): 367/383 kBProgress (1): 371/383 kBProgress (1): 375/383 kBProgress (1): 379/383 kBProgress (1): 383 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.13.1/junit-4.13.1.jar (383 kB at 5.5 MB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ javacpp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 156 source files to /Users/jaewooklee/cs527/final/javacpp/target/classes
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/tools/Generator.java:[93,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/tools/Generator.java:[93,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[25,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/tools/Generator.java:[93,16] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[34,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[37,9] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/UnsafeRaw.java:[51,18] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/tools/Generator.java:[1750,28] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/tools/Generator.java:[1757,24] sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/BooleanRawIndexer.java: Some input files use or override a deprecated API.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/indexer/BooleanRawIndexer.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/Pointer.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/main/java/org/bytedeco/javacpp/Pointer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5.2:descriptor (default-descriptor) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 3 mojo descriptors.
+[INFO] 
+[INFO] --- bnd-maven-plugin:4.2.0:bnd-process (default) @ javacpp ---
+[WARNING] Cannot consider developer in line '54' of file '/Users/jaewooklee/cs527/final/javacpp/pom.xml' for bundle header 'Bundle-Developers' as it does not contain the mandatory id.
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/pom.xml [0:0]: Export org.bytedeco.javacpp,  has 1,  private references [org.bytedeco.javacpp.presets]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ javacpp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /Users/jaewooklee/cs527/final/javacpp/target/test-classes
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/test/java/org/bytedeco/javacpp/IndexerTest.java: /Users/jaewooklee/cs527/final/javacpp/src/test/java/org/bytedeco/javacpp/IndexerTest.java uses or overrides a deprecated API.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/test/java/org/bytedeco/javacpp/IndexerTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/test/java/org/bytedeco/javacpp/AdapterTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /Users/jaewooklee/cs527/final/javacpp/src/test/java/org/bytedeco/javacpp/AdapterTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< nondex-maven-plugin:1.1.2:nondex (default-cli) < test-compile @ javacpp <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex-maven-plugin:1.1.2:nondex (default-cli) @ javacpp ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_ObaQdjPMhgG15NX2iOe1HwqNm12VW2txFGFAfbua7hM=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.bytedeco.javacpp.AdapterTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64/libjniAdapterTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniAdapterTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Warning: Could not load Pointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+SharedPtr
+UniquePtr
+CharString
+Warning: Could not load BytePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+ShortString
+Warning: Could not load CharPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdString
+Warning: Could not load IntPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdVector
+Warning: Could not load PointerPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+IntString
+StdMove
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fc2dea30a60,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fc2dea30a60,deallocatorAddress=0x1029ad200]]
+13
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fc2dea32360,position=0,limit=1,capacity=1,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fc2dea32360,deallocatorAddress=0x1029ad200]]
+42
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fc2dea30a60,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fc2dea30a60,deallocatorAddress=0x1029ad200]]
+42
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.681 s - in org.bytedeco.javacpp.AdapterTest
+[INFO] Running org.bytedeco.javacpp.BuilderTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Note: UnsatisfiedLinkError should get thrown here and printed below.
+java.lang.UnsatisfiedLinkError: dlopen(/path/to/nowhere, 9): image not found
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext2/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+17
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.642 s - in org.bytedeco.javacpp.BuilderTest
+[INFO] Running org.bytedeco.javacpp.PointerTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniPointerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniPointerTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+12 6 1
+FloatPointer
+Warning: Could not load FloatPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new FloatPointer(33554433): totalBytes = 896M, physicalBytes = 130M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134283268 134217732
+BytePointer
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new BytePointer(134217729): totalBytes = 896M, physicalBytes = 130M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134234113 134217729
+PointerScope
+Note: IllegalArgumentException should get thrown here and printed below.
+java.lang.IllegalArgumentException: org.bytedeco.javacpp.FloatPointer[address=0x7fc2e2c0c620,position=0,limit=1,capacity=1,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fc2e2c0c620,deallocatorAddress=0x1029b1440]] is not an instance of a class in forClasses: [class org.bytedeco.javacpp.IntPointer]
+Pointer
+136691712
+17179869184
+165097472
+PointerPointer
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new PointerPointer(16777217): totalBytes = 896M, physicalBytes = 130M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134348832 134217736
+IntPointer
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new IntPointer(33554433): totalBytes = 896M, physicalBytes = 130M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134283268 134217732
+BooleanPointer
+Warning: Could not load BooleanPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new BooleanPointer(134217729): totalBytes = 896M, physicalBytes = 131M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134234113 134217729
+FunctionPointer
+org.bytedeco.javacpp.Pointer[address=0x11fe1be80,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c240,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c260,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c280,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c2a0,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c2c0,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c2e0,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c300,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c320,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c340,position=0,limit=0,capacity=0,deallocator=null]
+org.bytedeco.javacpp.Pointer[address=0x11fe1c360,position=0,limit=0,capacity=0,deallocator=null]
+DoublePointer
+Warning: Could not load DoublePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new DoublePointer(16777217): totalBytes = 896M, physicalBytes = 131M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134348808 134217736
+LongPointer
+Warning: Could not load LongPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new LongPointer(16777217): totalBytes = 896M, physicalBytes = 131M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134348808 134217736
+CharPointer
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new CharPointer(67108865): totalBytes = 896M, physicalBytes = 131M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134250498 134217730
+Deallocator
+maxBytes = 1073741824
+maxPhysicalBytes = 4891607040
+Took 10124 ms
+ParseBytesWithRelativeUnits
+Note: NumberFormatException should get thrown here and printed below.
+java.lang.NumberFormatException: For input string: ""
+ShortPointer
+Warning: Could not load ShortPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+Note: OutOfMemoryError should get thrown here and printed below.
+java.lang.OutOfMemoryError: Cannot allocate new ShortPointer(67108865): totalBytes = 896M, physicalBytes = 133M
+java.lang.OutOfMemoryError: Failed to allocate memory within limits: totalBytes (896M + 128M) > maxBytes (1024M)
+134250498 134217730
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.082 s - in org.bytedeco.javacpp.PointerTest
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniEnumTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniEnumTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Enum
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.926 s - in org.bytedeco.javacpp.EnumTest
+[INFO] Running org.bytedeco.javacpp.BufferTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBufferTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBufferTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+LongBuffer
+ByteBuffer
+BufferCallback
+ShortBuffer
+IntBuffer
+FloatBuffer
+DoubleBuffer
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.965 s - in org.bytedeco.javacpp.BufferTest
+[INFO] Running org.bytedeco.javacpp.indexer.HyperslabIndexTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.bytedeco.javacpp.indexer.HyperslabIndexTest
+[INFO] Running org.bytedeco.javacpp.IndexerTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniIndexerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniIndexerTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Bfloat16Indexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (520.0, 528.0, 532.0)
+  (540.0, 544.0, 552.0), (556.0, 564.0, 568.0), (576.0, 580.0, 588.0), (592.0, 600.0, 604.0), (612.0, 616.0, 624.0) ]
+longIndexer[0x80000000] = 8160.0
+
+UByteIndexer
+arrayIndexer
+[ (17.0, 19.0, 21.0), (23.0, 25.0, 27.0), (29.0, 31.0, 33.0), (35.0, 37.0, 39.0), (41.0, 43.0, 45.0)
+  (47.0, 49.0, 51.0), (53.0, 55.0, 57.0), (59.0, 61.0, 63.0), (65.0, 67.0, 69.0), (71.0, 73.0, 75.0)
+  (77.0, 79.0, 81.0), (83.0, 85.0, 87.0), (89.0, 91.0, 93.0), (95.0, 97.0, 99.0), (101.0, 103.0, 105.0)
+  (107.0, 109.0, 111.0), (113.0, 115.0, 117.0), (119.0, 121.0, 123.0), (125.0, 127.0, 129.0), (131.0, 133.0, 135.0)
+  (137.0, 139.0, 141.0), (143.0, 145.0, 147.0), (149.0, 151.0, 153.0), (155.0, 157.0, 159.0), (161.0, 163.0, 165.0)
+  (167.0, 169.0, 171.0), (173.0, 175.0, 177.0), (179.0, 181.0, 183.0), (185.0, 187.0, 189.0), (191.0, 193.0, 195.0)
+  (197.0, 199.0, 201.0), (203.0, 205.0, 207.0), (209.0, 211.0, 213.0), (215.0, 217.0, 219.0), (221.0, 223.0, 225.0) ]
+directIndexer
+[ (18.0, 20.0, 22.0), (24.0, 26.0, 28.0), (30.0, 32.0, 34.0), (36.0, 38.0, 40.0), (42.0, 44.0, 46.0)
+  (48.0, 50.0, 52.0), (54.0, 56.0, 58.0), (60.0, 62.0, 64.0), (66.0, 68.0, 70.0), (72.0, 74.0, 76.0)
+  (78.0, 80.0, 82.0), (84.0, 86.0, 88.0), (90.0, 92.0, 94.0), (96.0, 98.0, 100.0), (102.0, 104.0, 106.0)
+  (108.0, 110.0, 112.0), (114.0, 116.0, 118.0), (120.0, 122.0, 124.0), (126.0, 128.0, 130.0), (132.0, 134.0, 136.0)
+  (138.0, 140.0, 142.0), (144.0, 146.0, 148.0), (150.0, 152.0, 154.0), (156.0, 158.0, 160.0), (162.0, 164.0, 166.0)
+  (168.0, 170.0, 172.0), (174.0, 176.0, 178.0), (180.0, 182.0, 184.0), (186.0, 188.0, 190.0), (192.0, 194.0, 196.0)
+  (198.0, 200.0, 202.0), (204.0, 206.0, 208.0), (210.0, 212.0, 214.0), (216.0, 218.0, 220.0), (222.0, 224.0, 226.0) ]
+longIndexer[0x80000000] = 255
+
+IntIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+HalfIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8192.0
+
+[1440, 3, 1]
+BooleanIndexer
+arrayIndexer
+[ (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0) ]
+directIndexer
+[ (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0) ]
+longIndexer[0x80002000 - 8192] = true
+
+DoubleIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+LongIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+CharIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80002000 - 8192] = 8191
+
+ShortIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+FloatIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+UIntIndexer
+arrayIndexer
+[ (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9)
+  (1.61061274E9, 1.61061274E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9)
+  (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9) ]
+directIndexer
+[ (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9)
+  (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9) ]
+longIndexer[0x80000000] = 8191
+
+ULongIndexer
+arrayIndexer
+[ (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18) ]
+directIndexer
+[ (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19) ]
+longIndexer[0x80000000] = 8191
+
+UShortIndexer
+arrayIndexer
+[ (24576.0, 24580.0, 24584.0), (24588.0, 24592.0, 24596.0), (24600.0, 24604.0, 24608.0), (24612.0, 24616.0, 24620.0), (24624.0, 24628.0, 24632.0)
+  (24636.0, 24640.0, 24644.0), (24648.0, 24652.0, 24656.0), (24660.0, 24664.0, 24668.0), (24672.0, 24676.0, 24680.0), (24684.0, 24688.0, 24692.0)
+  (24696.0, 24700.0, 24704.0), (24708.0, 24712.0, 24716.0), (24720.0, 24724.0, 24728.0), (24732.0, 24736.0, 24740.0), (24744.0, 24748.0, 24752.0)
+  (24756.0, 24760.0, 24764.0), (24768.0, 24772.0, 24776.0), (24780.0, 24784.0, 24788.0), (24792.0, 24796.0, 24800.0), (24804.0, 24808.0, 24812.0)
+  (24816.0, 24820.0, 24824.0), (24828.0, 24832.0, 24836.0), (24840.0, 24844.0, 24848.0), (24852.0, 24856.0, 24860.0), (24864.0, 24868.0, 24872.0)
+  (24876.0, 24880.0, 24884.0), (24888.0, 24892.0, 24896.0), (24900.0, 24904.0, 24908.0), (24912.0, 24916.0, 24920.0), (24924.0, 24928.0, 24932.0)
+  (24936.0, 24940.0, 24944.0), (24948.0, 24952.0, 24956.0), (24960.0, 24964.0, 24968.0), (24972.0, 24976.0, 24980.0), (24984.0, 24988.0, 24992.0) ]
+directIndexer
+[ (36864.0, 36870.0, 36876.0), (36882.0, 36888.0, 36894.0), (36900.0, 36906.0, 36912.0), (36918.0, 36924.0, 36930.0), (36936.0, 36942.0, 36948.0)
+  (36954.0, 36960.0, 36966.0), (36972.0, 36978.0, 36984.0), (36990.0, 36996.0, 37002.0), (37008.0, 37014.0, 37020.0), (37026.0, 37032.0, 37038.0)
+  (37044.0, 37050.0, 37056.0), (37062.0, 37068.0, 37074.0), (37080.0, 37086.0, 37092.0), (37098.0, 37104.0, 37110.0), (37116.0, 37122.0, 37128.0)
+  (37134.0, 37140.0, 37146.0), (37152.0, 37158.0, 37164.0), (37170.0, 37176.0, 37182.0), (37188.0, 37194.0, 37200.0), (37206.0, 37212.0, 37218.0)
+  (37224.0, 37230.0, 37236.0), (37242.0, 37248.0, 37254.0), (37260.0, 37266.0, 37272.0), (37278.0, 37284.0, 37290.0), (37296.0, 37302.0, 37308.0)
+  (37314.0, 37320.0, 37326.0), (37332.0, 37338.0, 37344.0), (37350.0, 37356.0, 37362.0), (37368.0, 37374.0, 37380.0), (37386.0, 37392.0, 37398.0)
+  (37404.0, 37410.0, 37416.0), (37422.0, 37428.0, 37434.0), (37440.0, 37446.0, 37452.0), (37458.0, 37464.0, 37470.0), (37476.0, 37482.0, 37488.0) ]
+longIndexer[0x80000000] = 8191
+
+ByteIndexer
+arrayIndexer
+[ (1.0, 3.0, 5.0), (7.0, 9.0, 11.0), (13.0, 15.0, 17.0), (19.0, 21.0, 23.0), (25.0, 27.0, 29.0)
+  (31.0, 33.0, 35.0), (37.0, 39.0, 41.0), (43.0, 45.0, 47.0), (49.0, 51.0, 53.0), (55.0, 57.0, 59.0)
+  (61.0, 63.0, 65.0), (67.0, 69.0, 71.0), (73.0, 75.0, 77.0), (79.0, 81.0, 83.0), (85.0, 87.0, 89.0)
+  (91.0, 93.0, 95.0), (97.0, 99.0, 101.0), (103.0, 105.0, 107.0), (109.0, 111.0, 113.0), (115.0, 117.0, 119.0)
+  (121.0, 123.0, 125.0), (127.0, -127.0, -125.0), (-123.0, -121.0, -119.0), (-117.0, -115.0, -113.0), (-111.0, -109.0, -107.0)
+  (-105.0, -103.0, -101.0), (-99.0, -97.0, -95.0), (-93.0, -91.0, -89.0), (-87.0, -85.0, -83.0), (-81.0, -79.0, -77.0)
+  (-75.0, -73.0, -71.0), (-69.0, -67.0, -65.0), (-63.0, -61.0, -59.0), (-57.0, -55.0, -53.0), (-51.0, -49.0, -47.0) ]
+directIndexer
+[ (2.0, 4.0, 6.0), (8.0, 10.0, 12.0), (14.0, 16.0, 18.0), (20.0, 22.0, 24.0), (26.0, 28.0, 30.0)
+  (32.0, 34.0, 36.0), (38.0, 40.0, 42.0), (44.0, 46.0, 48.0), (50.0, 52.0, 54.0), (56.0, 58.0, 60.0)
+  (62.0, 64.0, 66.0), (68.0, 70.0, 72.0), (74.0, 76.0, 78.0), (80.0, 82.0, 84.0), (86.0, 88.0, 90.0)
+  (92.0, 94.0, 96.0), (98.0, 100.0, 102.0), (104.0, 106.0, 108.0), (110.0, 112.0, 114.0), (116.0, 118.0, 120.0)
+  (122.0, 124.0, 126.0), (-128.0, -126.0, -124.0), (-122.0, -120.0, -118.0), (-116.0, -114.0, -112.0), (-110.0, -108.0, -106.0)
+  (-104.0, -102.0, -100.0), (-98.0, -96.0, -94.0), (-92.0, -90.0, -88.0), (-86.0, -84.0, -82.0), (-80.0, -78.0, -76.0)
+  (-74.0, -72.0, -70.0), (-68.0, -66.0, -64.0), (-62.0, -60.0, -58.0), (-56.0, -54.0, -52.0), (-50.0, -48.0, -46.0) ]
+longIndexer[0x80000000] = -1
+
+Indexer
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.005 s - in org.bytedeco.javacpp.IndexerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 67, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64/libjniAdapterTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniAdapterTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Warning: Could not load Pointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+[INFO] Running org.bytedeco.javacpp.AdapterTest
+SharedPtr
+UniquePtr
+CharString
+Warning: Could not load BytePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+ShortString
+Warning: Could not load CharPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdString
+Warning: Could not load IntPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdVector
+Warning: Could not load PointerPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+IntString
+StdMove
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fce9082de10,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fce9082de10,deallocatorAddress=0x10f405010]]
+13
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fce908469e0,position=0,limit=1,capacity=1,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fce908469e0,deallocatorAddress=0x10f405010]]
+42
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fce9082de10,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fce9082de10,deallocatorAddress=0x10f405010]]
+42
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in org.bytedeco.javacpp.AdapterTest
+[INFO] Running org.bytedeco.javacpp.BuilderTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Note: UnsatisfiedLinkError should get thrown here and printed below.
+java.lang.UnsatisfiedLinkError: dlopen(/path/to/nowhere, 9): image not found
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext2/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+17
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniPointerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniPointerTest.dylib 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.92 s - in org.bytedeco.javacpp.BuilderTest
+[INFO] Running org.bytedeco.javacpp.PointerTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniEnumTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniEnumTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.076 s <<< FAILURE! - in org.bytedeco.javacpp.PointerTest
+[ERROR] org.bytedeco.javacpp.PointerTest  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.PointerTest.setUpClass(PointerTest.java:68)
+
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Enum
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBufferTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBufferTest.dylib 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.873 s - in org.bytedeco.javacpp.EnumTest
+[INFO] Running org.bytedeco.javacpp.BufferTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.bytedeco.javacpp.BufferTest
+[ERROR] org.bytedeco.javacpp.BufferTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.BufferTest.setUpClass(BufferTest.java:82)
+
+[INFO] Running org.bytedeco.javacpp.indexer.HyperslabIndexTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniIndexerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniIndexerTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.979 s - in org.bytedeco.javacpp.indexer.HyperslabIndexTest
+[INFO] Running org.bytedeco.javacpp.IndexerTest
+Bfloat16Indexer
+Warning: Could not load ShortPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (520.0, 528.0, 532.0)
+  (540.0, 544.0, 552.0), (556.0, 564.0, 568.0), (576.0, 580.0, 588.0), (592.0, 600.0, 604.0), (612.0, 616.0, 624.0) ]
+longIndexer[0x80000000] = 8160.0
+
+Warning: Could not load FloatPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+UByteIndexer
+arrayIndexer
+[ (17.0, 19.0, 21.0), (23.0, 25.0, 27.0), (29.0, 31.0, 33.0), (35.0, 37.0, 39.0), (41.0, 43.0, 45.0)
+  (47.0, 49.0, 51.0), (53.0, 55.0, 57.0), (59.0, 61.0, 63.0), (65.0, 67.0, 69.0), (71.0, 73.0, 75.0)
+  (77.0, 79.0, 81.0), (83.0, 85.0, 87.0), (89.0, 91.0, 93.0), (95.0, 97.0, 99.0), (101.0, 103.0, 105.0)
+  (107.0, 109.0, 111.0), (113.0, 115.0, 117.0), (119.0, 121.0, 123.0), (125.0, 127.0, 129.0), (131.0, 133.0, 135.0)
+  (137.0, 139.0, 141.0), (143.0, 145.0, 147.0), (149.0, 151.0, 153.0), (155.0, 157.0, 159.0), (161.0, 163.0, 165.0)
+  (167.0, 169.0, 171.0), (173.0, 175.0, 177.0), (179.0, 181.0, 183.0), (185.0, 187.0, 189.0), (191.0, 193.0, 195.0)
+  (197.0, 199.0, 201.0), (203.0, 205.0, 207.0), (209.0, 211.0, 213.0), (215.0, 217.0, 219.0), (221.0, 223.0, 225.0) ]
+directIndexer
+[ (18.0, 20.0, 22.0), (24.0, 26.0, 28.0), (30.0, 32.0, 34.0), (36.0, 38.0, 40.0), (42.0, 44.0, 46.0)
+  (48.0, 50.0, 52.0), (54.0, 56.0, 58.0), (60.0, 62.0, 64.0), (66.0, 68.0, 70.0), (72.0, 74.0, 76.0)
+  (78.0, 80.0, 82.0), (84.0, 86.0, 88.0), (90.0, 92.0, 94.0), (96.0, 98.0, 100.0), (102.0, 104.0, 106.0)
+  (108.0, 110.0, 112.0), (114.0, 116.0, 118.0), (120.0, 122.0, 124.0), (126.0, 128.0, 130.0), (132.0, 134.0, 136.0)
+  (138.0, 140.0, 142.0), (144.0, 146.0, 148.0), (150.0, 152.0, 154.0), (156.0, 158.0, 160.0), (162.0, 164.0, 166.0)
+  (168.0, 170.0, 172.0), (174.0, 176.0, 178.0), (180.0, 182.0, 184.0), (186.0, 188.0, 190.0), (192.0, 194.0, 196.0)
+  (198.0, 200.0, 202.0), (204.0, 206.0, 208.0), (210.0, 212.0, 214.0), (216.0, 218.0, 220.0), (222.0, 224.0, 226.0) ]
+longIndexer[0x80000000] = 255
+
+IntIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+HalfIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8192.0
+
+[1440, 3, 1]
+BooleanIndexer
+Warning: Could not load BooleanPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0) ]
+directIndexer
+[ (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0) ]
+longIndexer[0x80002000 - 8192] = true
+
+Warning: Could not load DoublePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+DoubleIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+LongIndexer
+Warning: Could not load LongPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+CharIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80002000 - 8192] = 8191
+
+ShortIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+FloatIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+UIntIndexer
+arrayIndexer
+[ (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9)
+  (1.61061274E9, 1.61061274E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9)
+  (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9) ]
+directIndexer
+[ (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9)
+  (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9) ]
+longIndexer[0x80000000] = 8191
+
+ULongIndexer
+arrayIndexer
+[ (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18) ]
+directIndexer
+[ (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19) ]
+longIndexer[0x80000000] = 8191
+
+UShortIndexer
+arrayIndexer
+[ (24576.0, 24580.0, 24584.0), (24588.0, 24592.0, 24596.0), (24600.0, 24604.0, 24608.0), (24612.0, 24616.0, 24620.0), (24624.0, 24628.0, 24632.0)
+  (24636.0, 24640.0, 24644.0), (24648.0, 24652.0, 24656.0), (24660.0, 24664.0, 24668.0), (24672.0, 24676.0, 24680.0), (24684.0, 24688.0, 24692.0)
+  (24696.0, 24700.0, 24704.0), (24708.0, 24712.0, 24716.0), (24720.0, 24724.0, 24728.0), (24732.0, 24736.0, 24740.0), (24744.0, 24748.0, 24752.0)
+  (24756.0, 24760.0, 24764.0), (24768.0, 24772.0, 24776.0), (24780.0, 24784.0, 24788.0), (24792.0, 24796.0, 24800.0), (24804.0, 24808.0, 24812.0)
+  (24816.0, 24820.0, 24824.0), (24828.0, 24832.0, 24836.0), (24840.0, 24844.0, 24848.0), (24852.0, 24856.0, 24860.0), (24864.0, 24868.0, 24872.0)
+  (24876.0, 24880.0, 24884.0), (24888.0, 24892.0, 24896.0), (24900.0, 24904.0, 24908.0), (24912.0, 24916.0, 24920.0), (24924.0, 24928.0, 24932.0)
+  (24936.0, 24940.0, 24944.0), (24948.0, 24952.0, 24956.0), (24960.0, 24964.0, 24968.0), (24972.0, 24976.0, 24980.0), (24984.0, 24988.0, 24992.0) ]
+directIndexer
+[ (36864.0, 36870.0, 36876.0), (36882.0, 36888.0, 36894.0), (36900.0, 36906.0, 36912.0), (36918.0, 36924.0, 36930.0), (36936.0, 36942.0, 36948.0)
+  (36954.0, 36960.0, 36966.0), (36972.0, 36978.0, 36984.0), (36990.0, 36996.0, 37002.0), (37008.0, 37014.0, 37020.0), (37026.0, 37032.0, 37038.0)
+  (37044.0, 37050.0, 37056.0), (37062.0, 37068.0, 37074.0), (37080.0, 37086.0, 37092.0), (37098.0, 37104.0, 37110.0), (37116.0, 37122.0, 37128.0)
+  (37134.0, 37140.0, 37146.0), (37152.0, 37158.0, 37164.0), (37170.0, 37176.0, 37182.0), (37188.0, 37194.0, 37200.0), (37206.0, 37212.0, 37218.0)
+  (37224.0, 37230.0, 37236.0), (37242.0, 37248.0, 37254.0), (37260.0, 37266.0, 37272.0), (37278.0, 37284.0, 37290.0), (37296.0, 37302.0, 37308.0)
+  (37314.0, 37320.0, 37326.0), (37332.0, 37338.0, 37344.0), (37350.0, 37356.0, 37362.0), (37368.0, 37374.0, 37380.0), (37386.0, 37392.0, 37398.0)
+  (37404.0, 37410.0, 37416.0), (37422.0, 37428.0, 37434.0), (37440.0, 37446.0, 37452.0), (37458.0, 37464.0, 37470.0), (37476.0, 37482.0, 37488.0) ]
+longIndexer[0x80000000] = 8191
+
+ByteIndexer
+arrayIndexer
+[ (1.0, 3.0, 5.0), (7.0, 9.0, 11.0), (13.0, 15.0, 17.0), (19.0, 21.0, 23.0), (25.0, 27.0, 29.0)
+  (31.0, 33.0, 35.0), (37.0, 39.0, 41.0), (43.0, 45.0, 47.0), (49.0, 51.0, 53.0), (55.0, 57.0, 59.0)
+  (61.0, 63.0, 65.0), (67.0, 69.0, 71.0), (73.0, 75.0, 77.0), (79.0, 81.0, 83.0), (85.0, 87.0, 89.0)
+  (91.0, 93.0, 95.0), (97.0, 99.0, 101.0), (103.0, 105.0, 107.0), (109.0, 111.0, 113.0), (115.0, 117.0, 119.0)
+  (121.0, 123.0, 125.0), (127.0, -127.0, -125.0), (-123.0, -121.0, -119.0), (-117.0, -115.0, -113.0), (-111.0, -109.0, -107.0)
+  (-105.0, -103.0, -101.0), (-99.0, -97.0, -95.0), (-93.0, -91.0, -89.0), (-87.0, -85.0, -83.0), (-81.0, -79.0, -77.0)
+  (-75.0, -73.0, -71.0), (-69.0, -67.0, -65.0), (-63.0, -61.0, -59.0), (-57.0, -55.0, -53.0), (-51.0, -49.0, -47.0) ]
+directIndexer
+[ (2.0, 4.0, 6.0), (8.0, 10.0, 12.0), (14.0, 16.0, 18.0), (20.0, 22.0, 24.0), (26.0, 28.0, 30.0)
+  (32.0, 34.0, 36.0), (38.0, 40.0, 42.0), (44.0, 46.0, 48.0), (50.0, 52.0, 54.0), (56.0, 58.0, 60.0)
+  (62.0, 64.0, 66.0), (68.0, 70.0, 72.0), (74.0, 76.0, 78.0), (80.0, 82.0, 84.0), (86.0, 88.0, 90.0)
+  (92.0, 94.0, 96.0), (98.0, 100.0, 102.0), (104.0, 106.0, 108.0), (110.0, 112.0, 114.0), (116.0, 118.0, 120.0)
+  (122.0, 124.0, 126.0), (-128.0, -126.0, -124.0), (-122.0, -120.0, -118.0), (-116.0, -114.0, -112.0), (-110.0, -108.0, -106.0)
+  (-104.0, -102.0, -100.0), (-98.0, -96.0, -94.0), (-92.0, -90.0, -88.0), (-86.0, -84.0, -82.0), (-80.0, -78.0, -76.0)
+  (-74.0, -72.0, -70.0), (-68.0, -66.0, -64.0), (-62.0, -60.0, -58.0), (-56.0, -54.0, -52.0), (-50.0, -48.0, -46.0) ]
+longIndexer[0x80000000] = -1
+
+Indexer
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.303 s - in org.bytedeco.javacpp.IndexerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BufferTest.setUpClass:82 » Runtime Process exited with an error: 1
+[ERROR]   PointerTest.setUpClass:68 » Runtime Process exited with an error: 1
+[INFO] 
+[ERROR] Tests run: 48, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=YYwFEjYw5uFWZpmSuMQyum9opz3lo6ktlsTC2ArmjcM=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64/libjniAdapterTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniAdapterTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Warning: Could not load Pointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+[INFO] Running org.bytedeco.javacpp.AdapterTest
+SharedPtr
+UniquePtr
+CharString
+Warning: Could not load BytePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+ShortString
+Warning: Could not load CharPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdString
+Warning: Could not load IntPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdVector
+Warning: Could not load PointerPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+IntString
+StdMove
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7ff522911000,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7ff522911000,deallocatorAddress=0x10dca2590]]
+13
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7ff52140d1d0,position=0,limit=1,capacity=1,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7ff52140d1d0,deallocatorAddress=0x10dca2590]]
+42
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7ff5214278e0,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7ff5214278e0,deallocatorAddress=0x10dca2590]]
+42
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 s - in org.bytedeco.javacpp.AdapterTest
+[INFO] Running org.bytedeco.javacpp.BuilderTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Note: UnsatisfiedLinkError should get thrown here and printed below.
+java.lang.UnsatisfiedLinkError: dlopen(/path/to/nowhere, 9): image not found
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext2/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+17
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniPointerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniPointerTest.dylib 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.988 s - in org.bytedeco.javacpp.BuilderTest
+[INFO] Running org.bytedeco.javacpp.PointerTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniEnumTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniEnumTest.dylib 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.074 s <<< FAILURE! - in org.bytedeco.javacpp.PointerTest
+[ERROR] org.bytedeco.javacpp.PointerTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.PointerTest.setUpClass(PointerTest.java:68)
+
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBufferTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBufferTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.968 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] org.bytedeco.javacpp.EnumTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.EnumTest.setUpClass(EnumTest.java:96)
+
+[INFO] Running org.bytedeco.javacpp.BufferTest
+LongBuffer
+Warning: Could not load LongPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+ByteBuffer
+BufferCallback
+ShortBuffer
+Warning: Could not load ShortPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+IntBuffer
+FloatBuffer
+Warning: Could not load FloatPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+DoubleBuffer
+Warning: Could not load DoublePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in org.bytedeco.javacpp.BufferTest
+[INFO] Running org.bytedeco.javacpp.indexer.HyperslabIndexTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniIndexerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniIndexerTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.382 s - in org.bytedeco.javacpp.indexer.HyperslabIndexTest
+[INFO] Running org.bytedeco.javacpp.IndexerTest
+Bfloat16Indexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (520.0, 528.0, 532.0)
+  (540.0, 544.0, 552.0), (556.0, 564.0, 568.0), (576.0, 580.0, 588.0), (592.0, 600.0, 604.0), (612.0, 616.0, 624.0) ]
+longIndexer[0x80000000] = 8160.0
+
+UByteIndexer
+arrayIndexer
+[ (17.0, 19.0, 21.0), (23.0, 25.0, 27.0), (29.0, 31.0, 33.0), (35.0, 37.0, 39.0), (41.0, 43.0, 45.0)
+  (47.0, 49.0, 51.0), (53.0, 55.0, 57.0), (59.0, 61.0, 63.0), (65.0, 67.0, 69.0), (71.0, 73.0, 75.0)
+  (77.0, 79.0, 81.0), (83.0, 85.0, 87.0), (89.0, 91.0, 93.0), (95.0, 97.0, 99.0), (101.0, 103.0, 105.0)
+  (107.0, 109.0, 111.0), (113.0, 115.0, 117.0), (119.0, 121.0, 123.0), (125.0, 127.0, 129.0), (131.0, 133.0, 135.0)
+  (137.0, 139.0, 141.0), (143.0, 145.0, 147.0), (149.0, 151.0, 153.0), (155.0, 157.0, 159.0), (161.0, 163.0, 165.0)
+  (167.0, 169.0, 171.0), (173.0, 175.0, 177.0), (179.0, 181.0, 183.0), (185.0, 187.0, 189.0), (191.0, 193.0, 195.0)
+  (197.0, 199.0, 201.0), (203.0, 205.0, 207.0), (209.0, 211.0, 213.0), (215.0, 217.0, 219.0), (221.0, 223.0, 225.0) ]
+directIndexer
+[ (18.0, 20.0, 22.0), (24.0, 26.0, 28.0), (30.0, 32.0, 34.0), (36.0, 38.0, 40.0), (42.0, 44.0, 46.0)
+  (48.0, 50.0, 52.0), (54.0, 56.0, 58.0), (60.0, 62.0, 64.0), (66.0, 68.0, 70.0), (72.0, 74.0, 76.0)
+  (78.0, 80.0, 82.0), (84.0, 86.0, 88.0), (90.0, 92.0, 94.0), (96.0, 98.0, 100.0), (102.0, 104.0, 106.0)
+  (108.0, 110.0, 112.0), (114.0, 116.0, 118.0), (120.0, 122.0, 124.0), (126.0, 128.0, 130.0), (132.0, 134.0, 136.0)
+  (138.0, 140.0, 142.0), (144.0, 146.0, 148.0), (150.0, 152.0, 154.0), (156.0, 158.0, 160.0), (162.0, 164.0, 166.0)
+  (168.0, 170.0, 172.0), (174.0, 176.0, 178.0), (180.0, 182.0, 184.0), (186.0, 188.0, 190.0), (192.0, 194.0, 196.0)
+  (198.0, 200.0, 202.0), (204.0, 206.0, 208.0), (210.0, 212.0, 214.0), (216.0, 218.0, 220.0), (222.0, 224.0, 226.0) ]
+longIndexer[0x80000000] = 255
+
+IntIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+HalfIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8192.0
+
+[1440, 3, 1]
+BooleanIndexer
+Warning: Could not load BooleanPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0) ]
+directIndexer
+[ (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0) ]
+longIndexer[0x80002000 - 8192] = true
+
+DoubleIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+LongIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+CharIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80002000 - 8192] = 8191
+
+ShortIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+FloatIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+UIntIndexer
+arrayIndexer
+[ (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9)
+  (1.61061274E9, 1.61061274E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9)
+  (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9) ]
+directIndexer
+[ (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9)
+  (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9) ]
+longIndexer[0x80000000] = 8191
+
+ULongIndexer
+arrayIndexer
+[ (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18) ]
+directIndexer
+[ (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19) ]
+longIndexer[0x80000000] = 8191
+
+UShortIndexer
+arrayIndexer
+[ (24576.0, 24580.0, 24584.0), (24588.0, 24592.0, 24596.0), (24600.0, 24604.0, 24608.0), (24612.0, 24616.0, 24620.0), (24624.0, 24628.0, 24632.0)
+  (24636.0, 24640.0, 24644.0), (24648.0, 24652.0, 24656.0), (24660.0, 24664.0, 24668.0), (24672.0, 24676.0, 24680.0), (24684.0, 24688.0, 24692.0)
+  (24696.0, 24700.0, 24704.0), (24708.0, 24712.0, 24716.0), (24720.0, 24724.0, 24728.0), (24732.0, 24736.0, 24740.0), (24744.0, 24748.0, 24752.0)
+  (24756.0, 24760.0, 24764.0), (24768.0, 24772.0, 24776.0), (24780.0, 24784.0, 24788.0), (24792.0, 24796.0, 24800.0), (24804.0, 24808.0, 24812.0)
+  (24816.0, 24820.0, 24824.0), (24828.0, 24832.0, 24836.0), (24840.0, 24844.0, 24848.0), (24852.0, 24856.0, 24860.0), (24864.0, 24868.0, 24872.0)
+  (24876.0, 24880.0, 24884.0), (24888.0, 24892.0, 24896.0), (24900.0, 24904.0, 24908.0), (24912.0, 24916.0, 24920.0), (24924.0, 24928.0, 24932.0)
+  (24936.0, 24940.0, 24944.0), (24948.0, 24952.0, 24956.0), (24960.0, 24964.0, 24968.0), (24972.0, 24976.0, 24980.0), (24984.0, 24988.0, 24992.0) ]
+directIndexer
+[ (36864.0, 36870.0, 36876.0), (36882.0, 36888.0, 36894.0), (36900.0, 36906.0, 36912.0), (36918.0, 36924.0, 36930.0), (36936.0, 36942.0, 36948.0)
+  (36954.0, 36960.0, 36966.0), (36972.0, 36978.0, 36984.0), (36990.0, 36996.0, 37002.0), (37008.0, 37014.0, 37020.0), (37026.0, 37032.0, 37038.0)
+  (37044.0, 37050.0, 37056.0), (37062.0, 37068.0, 37074.0), (37080.0, 37086.0, 37092.0), (37098.0, 37104.0, 37110.0), (37116.0, 37122.0, 37128.0)
+  (37134.0, 37140.0, 37146.0), (37152.0, 37158.0, 37164.0), (37170.0, 37176.0, 37182.0), (37188.0, 37194.0, 37200.0), (37206.0, 37212.0, 37218.0)
+  (37224.0, 37230.0, 37236.0), (37242.0, 37248.0, 37254.0), (37260.0, 37266.0, 37272.0), (37278.0, 37284.0, 37290.0), (37296.0, 37302.0, 37308.0)
+  (37314.0, 37320.0, 37326.0), (37332.0, 37338.0, 37344.0), (37350.0, 37356.0, 37362.0), (37368.0, 37374.0, 37380.0), (37386.0, 37392.0, 37398.0)
+  (37404.0, 37410.0, 37416.0), (37422.0, 37428.0, 37434.0), (37440.0, 37446.0, 37452.0), (37458.0, 37464.0, 37470.0), (37476.0, 37482.0, 37488.0) ]
+longIndexer[0x80000000] = 8191
+
+ByteIndexer
+arrayIndexer
+[ (1.0, 3.0, 5.0), (7.0, 9.0, 11.0), (13.0, 15.0, 17.0), (19.0, 21.0, 23.0), (25.0, 27.0, 29.0)
+  (31.0, 33.0, 35.0), (37.0, 39.0, 41.0), (43.0, 45.0, 47.0), (49.0, 51.0, 53.0), (55.0, 57.0, 59.0)
+  (61.0, 63.0, 65.0), (67.0, 69.0, 71.0), (73.0, 75.0, 77.0), (79.0, 81.0, 83.0), (85.0, 87.0, 89.0)
+  (91.0, 93.0, 95.0), (97.0, 99.0, 101.0), (103.0, 105.0, 107.0), (109.0, 111.0, 113.0), (115.0, 117.0, 119.0)
+  (121.0, 123.0, 125.0), (127.0, -127.0, -125.0), (-123.0, -121.0, -119.0), (-117.0, -115.0, -113.0), (-111.0, -109.0, -107.0)
+  (-105.0, -103.0, -101.0), (-99.0, -97.0, -95.0), (-93.0, -91.0, -89.0), (-87.0, -85.0, -83.0), (-81.0, -79.0, -77.0)
+  (-75.0, -73.0, -71.0), (-69.0, -67.0, -65.0), (-63.0, -61.0, -59.0), (-57.0, -55.0, -53.0), (-51.0, -49.0, -47.0) ]
+directIndexer
+[ (2.0, 4.0, 6.0), (8.0, 10.0, 12.0), (14.0, 16.0, 18.0), (20.0, 22.0, 24.0), (26.0, 28.0, 30.0)
+  (32.0, 34.0, 36.0), (38.0, 40.0, 42.0), (44.0, 46.0, 48.0), (50.0, 52.0, 54.0), (56.0, 58.0, 60.0)
+  (62.0, 64.0, 66.0), (68.0, 70.0, 72.0), (74.0, 76.0, 78.0), (80.0, 82.0, 84.0), (86.0, 88.0, 90.0)
+  (92.0, 94.0, 96.0), (98.0, 100.0, 102.0), (104.0, 106.0, 108.0), (110.0, 112.0, 114.0), (116.0, 118.0, 120.0)
+  (122.0, 124.0, 126.0), (-128.0, -126.0, -124.0), (-122.0, -120.0, -118.0), (-116.0, -114.0, -112.0), (-110.0, -108.0, -106.0)
+  (-104.0, -102.0, -100.0), (-98.0, -96.0, -94.0), (-92.0, -90.0, -88.0), (-86.0, -84.0, -82.0), (-80.0, -78.0, -76.0)
+  (-74.0, -72.0, -70.0), (-68.0, -66.0, -64.0), (-62.0, -60.0, -58.0), (-56.0, -54.0, -52.0), (-50.0, -48.0, -46.0) ]
+longIndexer[0x80000000] = -1
+
+Indexer
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.415 s - in org.bytedeco.javacpp.IndexerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   EnumTest.setUpClass:96 » Runtime Process exited with an error: 1
+[ERROR]   PointerTest.setUpClass:68 » Runtime Process exited with an error: 1
+[INFO] 
+[ERROR] Tests run: 54, Failures: 0, Errors: 2, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for YYwFEjYw5uFWZpmSuMQyum9opz3lo6ktlsTC2ArmjcM=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=gQSNSsVq0C8VK0WVXOUiqXPUgVDc3Fdz5UhuxCdJPIE=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64/libjniAdapterTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniAdapterTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniAdapterTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Warning: Could not load Pointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+[INFO] Running org.bytedeco.javacpp.AdapterTest
+SharedPtr
+UniquePtr
+CharString
+Warning: Could not load BytePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+ShortString
+Warning: Could not load CharPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdString
+Warning: Could not load IntPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+StdVector
+Warning: Could not load PointerPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+IntString
+StdMove
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fdb6f60d180,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fdb6f60d180,deallocatorAddress=0x10a5557e0]]
+13
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fdb6f60b9b0,position=0,limit=1,capacity=1,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fdb6f60b9b0,deallocatorAddress=0x10a5557e0]]
+42
+org.bytedeco.javacpp.AdapterTest$MovedData[address=0x7fdb6f60d180,position=0,limit=0,capacity=0,deallocator=org.bytedeco.javacpp.Pointer$NativeDeallocator[ownerAddress=0x7fdb6f60d180,deallocatorAddress=0x10a5557e0]]
+42
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.139 s - in org.bytedeco.javacpp.AdapterTest
+[INFO] Running org.bytedeco.javacpp.BuilderTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+Note: UnsatisfiedLinkError should get thrown here and printed below.
+java.lang.UnsatisfiedLinkError: dlopen(/path/to/nowhere, 9): image not found
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext2/libjniBuilderTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBuilderTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBuilderTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+17
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniPointerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniPointerTest.dylib 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.796 s - in org.bytedeco.javacpp.BuilderTest
+[INFO] Running org.bytedeco.javacpp.PointerTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniEnumTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniEnumTest.dylib 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.978 s <<< FAILURE! - in org.bytedeco.javacpp.PointerTest
+[ERROR] org.bytedeco.javacpp.PointerTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.PointerTest.setUpClass(PointerTest.java:68)
+
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniBufferTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -std=c++11 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniBufferTest.dylib 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.967 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] org.bytedeco.javacpp.EnumTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.EnumTest.setUpClass(EnumTest.java:96)
+
+[INFO] Running org.bytedeco.javacpp.BufferTest
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in org.bytedeco.javacpp.BufferTest
+[ERROR] org.bytedeco.javacpp.BufferTest  Time elapsed: 0 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.BufferTest.setUpClass(BufferTest.java:82)
+
+[INFO] Running org.bytedeco.javacpp.indexer.HyperslabIndexTest
+Builder
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Compiling /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/macosx-x86_64-ext1/libjniIndexerTest.dylib
+Info: clang++ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp -march=x86-64 -m64 -O3 -Wl,-rpath,@loader_path/. -Wall -fPIC -pthread -dynamiclib -undefined dynamic_lookup -o libjniIndexerTest.dylib 
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniIndexerTest.cpp
+Info: Deleting /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Loader
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.875 s - in org.bytedeco.javacpp.indexer.HyperslabIndexTest
+[INFO] Running org.bytedeco.javacpp.IndexerTest
+Bfloat16Indexer
+Warning: Could not load ShortPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (520.0, 528.0, 532.0)
+  (540.0, 544.0, 552.0), (556.0, 564.0, 568.0), (576.0, 580.0, 588.0), (592.0, 600.0, 604.0), (612.0, 616.0, 624.0) ]
+longIndexer[0x80000000] = 8160.0
+
+Warning: Could not load FloatPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+UByteIndexer
+arrayIndexer
+[ (17.0, 19.0, 21.0), (23.0, 25.0, 27.0), (29.0, 31.0, 33.0), (35.0, 37.0, 39.0), (41.0, 43.0, 45.0)
+  (47.0, 49.0, 51.0), (53.0, 55.0, 57.0), (59.0, 61.0, 63.0), (65.0, 67.0, 69.0), (71.0, 73.0, 75.0)
+  (77.0, 79.0, 81.0), (83.0, 85.0, 87.0), (89.0, 91.0, 93.0), (95.0, 97.0, 99.0), (101.0, 103.0, 105.0)
+  (107.0, 109.0, 111.0), (113.0, 115.0, 117.0), (119.0, 121.0, 123.0), (125.0, 127.0, 129.0), (131.0, 133.0, 135.0)
+  (137.0, 139.0, 141.0), (143.0, 145.0, 147.0), (149.0, 151.0, 153.0), (155.0, 157.0, 159.0), (161.0, 163.0, 165.0)
+  (167.0, 169.0, 171.0), (173.0, 175.0, 177.0), (179.0, 181.0, 183.0), (185.0, 187.0, 189.0), (191.0, 193.0, 195.0)
+  (197.0, 199.0, 201.0), (203.0, 205.0, 207.0), (209.0, 211.0, 213.0), (215.0, 217.0, 219.0), (221.0, 223.0, 225.0) ]
+directIndexer
+[ (18.0, 20.0, 22.0), (24.0, 26.0, 28.0), (30.0, 32.0, 34.0), (36.0, 38.0, 40.0), (42.0, 44.0, 46.0)
+  (48.0, 50.0, 52.0), (54.0, 56.0, 58.0), (60.0, 62.0, 64.0), (66.0, 68.0, 70.0), (72.0, 74.0, 76.0)
+  (78.0, 80.0, 82.0), (84.0, 86.0, 88.0), (90.0, 92.0, 94.0), (96.0, 98.0, 100.0), (102.0, 104.0, 106.0)
+  (108.0, 110.0, 112.0), (114.0, 116.0, 118.0), (120.0, 122.0, 124.0), (126.0, 128.0, 130.0), (132.0, 134.0, 136.0)
+  (138.0, 140.0, 142.0), (144.0, 146.0, 148.0), (150.0, 152.0, 154.0), (156.0, 158.0, 160.0), (162.0, 164.0, 166.0)
+  (168.0, 170.0, 172.0), (174.0, 176.0, 178.0), (180.0, 182.0, 184.0), (186.0, 188.0, 190.0), (192.0, 194.0, 196.0)
+  (198.0, 200.0, 202.0), (204.0, 206.0, 208.0), (210.0, 212.0, 214.0), (216.0, 218.0, 220.0), (222.0, 224.0, 226.0) ]
+longIndexer[0x80000000] = 255
+
+IntIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+HalfIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8192.0
+
+[1440, 3, 1]
+BooleanIndexer
+Warning: Could not load BooleanPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0)
+  (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0), (0.0, 1.0, 1.0) ]
+directIndexer
+[ (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0)
+  (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0)
+  (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0), (1.0, 0.0, 1.0), (0.0, 1.0, 0.0) ]
+longIndexer[0x80002000 - 8192] = true
+
+Warning: Could not load DoublePointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+DoubleIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+LongIndexer
+Warning: Could not load LongPointer: java.lang.UnsatisfiedLinkError: no jnijavacpp in java.library.path
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+CharIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80002000 - 8192] = 8191
+
+ShortIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191
+
+FloatIndexer
+arrayIndexer
+[ (0.0, 4.0, 8.0), (12.0, 16.0, 20.0), (24.0, 28.0, 32.0), (36.0, 40.0, 44.0), (48.0, 52.0, 56.0)
+  (60.0, 64.0, 68.0), (72.0, 76.0, 80.0), (84.0, 88.0, 92.0), (96.0, 100.0, 104.0), (108.0, 112.0, 116.0)
+  (120.0, 124.0, 128.0), (132.0, 136.0, 140.0), (144.0, 148.0, 152.0), (156.0, 160.0, 164.0), (168.0, 172.0, 176.0)
+  (180.0, 184.0, 188.0), (192.0, 196.0, 200.0), (204.0, 208.0, 212.0), (216.0, 220.0, 224.0), (228.0, 232.0, 236.0)
+  (240.0, 244.0, 248.0), (252.0, 256.0, 260.0), (264.0, 268.0, 272.0), (276.0, 280.0, 284.0), (288.0, 292.0, 296.0)
+  (300.0, 304.0, 308.0), (312.0, 316.0, 320.0), (324.0, 328.0, 332.0), (336.0, 340.0, 344.0), (348.0, 352.0, 356.0)
+  (360.0, 364.0, 368.0), (372.0, 376.0, 380.0), (384.0, 388.0, 392.0), (396.0, 400.0, 404.0), (408.0, 412.0, 416.0) ]
+directIndexer
+[ (0.0, 6.0, 12.0), (18.0, 24.0, 30.0), (36.0, 42.0, 48.0), (54.0, 60.0, 66.0), (72.0, 78.0, 84.0)
+  (90.0, 96.0, 102.0), (108.0, 114.0, 120.0), (126.0, 132.0, 138.0), (144.0, 150.0, 156.0), (162.0, 168.0, 174.0)
+  (180.0, 186.0, 192.0), (198.0, 204.0, 210.0), (216.0, 222.0, 228.0), (234.0, 240.0, 246.0), (252.0, 258.0, 264.0)
+  (270.0, 276.0, 282.0), (288.0, 294.0, 300.0), (306.0, 312.0, 318.0), (324.0, 330.0, 336.0), (342.0, 348.0, 354.0)
+  (360.0, 366.0, 372.0), (378.0, 384.0, 390.0), (396.0, 402.0, 408.0), (414.0, 420.0, 426.0), (432.0, 438.0, 444.0)
+  (450.0, 456.0, 462.0), (468.0, 474.0, 480.0), (486.0, 492.0, 498.0), (504.0, 510.0, 516.0), (522.0, 528.0, 534.0)
+  (540.0, 546.0, 552.0), (558.0, 564.0, 570.0), (576.0, 582.0, 588.0), (594.0, 600.0, 606.0), (612.0, 618.0, 624.0) ]
+longIndexer[0x80000000] = 8191.0
+
+UIntIndexer
+arrayIndexer
+[ (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9), (1.61061274E9, 1.61061274E9, 1.61061274E9)
+  (1.61061274E9, 1.61061274E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061286E9, 1.61061286E9, 1.61061286E9)
+  (1.61061286E9, 1.61061286E9, 1.61061286E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9)
+  (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061299E9, 1.61061299E9, 1.61061299E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9)
+  (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9), (1.61061312E9, 1.61061312E9, 1.61061312E9) ]
+directIndexer
+[ (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9)
+  (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.4159191E9, 2.4159191E9), (2.4159191E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591936E9, 2.41591936E9)
+  (2.41591936E9, 2.41591936E9, 2.41591936E9), (2.41591936E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9)
+  (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9), (2.41591962E9, 2.41591962E9, 2.41591962E9) ]
+longIndexer[0x80000000] = 8191
+
+ULongIndexer
+arrayIndexer
+[ (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18)
+  (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18), (6.917529E18, 6.917529E18, 6.917529E18) ]
+directIndexer
+[ (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19)
+  (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19), (1.0376294E19, 1.0376294E19, 1.0376294E19) ]
+longIndexer[0x80000000] = 8191
+
+UShortIndexer
+arrayIndexer
+[ (24576.0, 24580.0, 24584.0), (24588.0, 24592.0, 24596.0), (24600.0, 24604.0, 24608.0), (24612.0, 24616.0, 24620.0), (24624.0, 24628.0, 24632.0)
+  (24636.0, 24640.0, 24644.0), (24648.0, 24652.0, 24656.0), (24660.0, 24664.0, 24668.0), (24672.0, 24676.0, 24680.0), (24684.0, 24688.0, 24692.0)
+  (24696.0, 24700.0, 24704.0), (24708.0, 24712.0, 24716.0), (24720.0, 24724.0, 24728.0), (24732.0, 24736.0, 24740.0), (24744.0, 24748.0, 24752.0)
+  (24756.0, 24760.0, 24764.0), (24768.0, 24772.0, 24776.0), (24780.0, 24784.0, 24788.0), (24792.0, 24796.0, 24800.0), (24804.0, 24808.0, 24812.0)
+  (24816.0, 24820.0, 24824.0), (24828.0, 24832.0, 24836.0), (24840.0, 24844.0, 24848.0), (24852.0, 24856.0, 24860.0), (24864.0, 24868.0, 24872.0)
+  (24876.0, 24880.0, 24884.0), (24888.0, 24892.0, 24896.0), (24900.0, 24904.0, 24908.0), (24912.0, 24916.0, 24920.0), (24924.0, 24928.0, 24932.0)
+  (24936.0, 24940.0, 24944.0), (24948.0, 24952.0, 24956.0), (24960.0, 24964.0, 24968.0), (24972.0, 24976.0, 24980.0), (24984.0, 24988.0, 24992.0) ]
+directIndexer
+[ (36864.0, 36870.0, 36876.0), (36882.0, 36888.0, 36894.0), (36900.0, 36906.0, 36912.0), (36918.0, 36924.0, 36930.0), (36936.0, 36942.0, 36948.0)
+  (36954.0, 36960.0, 36966.0), (36972.0, 36978.0, 36984.0), (36990.0, 36996.0, 37002.0), (37008.0, 37014.0, 37020.0), (37026.0, 37032.0, 37038.0)
+  (37044.0, 37050.0, 37056.0), (37062.0, 37068.0, 37074.0), (37080.0, 37086.0, 37092.0), (37098.0, 37104.0, 37110.0), (37116.0, 37122.0, 37128.0)
+  (37134.0, 37140.0, 37146.0), (37152.0, 37158.0, 37164.0), (37170.0, 37176.0, 37182.0), (37188.0, 37194.0, 37200.0), (37206.0, 37212.0, 37218.0)
+  (37224.0, 37230.0, 37236.0), (37242.0, 37248.0, 37254.0), (37260.0, 37266.0, 37272.0), (37278.0, 37284.0, 37290.0), (37296.0, 37302.0, 37308.0)
+  (37314.0, 37320.0, 37326.0), (37332.0, 37338.0, 37344.0), (37350.0, 37356.0, 37362.0), (37368.0, 37374.0, 37380.0), (37386.0, 37392.0, 37398.0)
+  (37404.0, 37410.0, 37416.0), (37422.0, 37428.0, 37434.0), (37440.0, 37446.0, 37452.0), (37458.0, 37464.0, 37470.0), (37476.0, 37482.0, 37488.0) ]
+longIndexer[0x80000000] = 8191
+
+ByteIndexer
+arrayIndexer
+[ (1.0, 3.0, 5.0), (7.0, 9.0, 11.0), (13.0, 15.0, 17.0), (19.0, 21.0, 23.0), (25.0, 27.0, 29.0)
+  (31.0, 33.0, 35.0), (37.0, 39.0, 41.0), (43.0, 45.0, 47.0), (49.0, 51.0, 53.0), (55.0, 57.0, 59.0)
+  (61.0, 63.0, 65.0), (67.0, 69.0, 71.0), (73.0, 75.0, 77.0), (79.0, 81.0, 83.0), (85.0, 87.0, 89.0)
+  (91.0, 93.0, 95.0), (97.0, 99.0, 101.0), (103.0, 105.0, 107.0), (109.0, 111.0, 113.0), (115.0, 117.0, 119.0)
+  (121.0, 123.0, 125.0), (127.0, -127.0, -125.0), (-123.0, -121.0, -119.0), (-117.0, -115.0, -113.0), (-111.0, -109.0, -107.0)
+  (-105.0, -103.0, -101.0), (-99.0, -97.0, -95.0), (-93.0, -91.0, -89.0), (-87.0, -85.0, -83.0), (-81.0, -79.0, -77.0)
+  (-75.0, -73.0, -71.0), (-69.0, -67.0, -65.0), (-63.0, -61.0, -59.0), (-57.0, -55.0, -53.0), (-51.0, -49.0, -47.0) ]
+directIndexer
+[ (2.0, 4.0, 6.0), (8.0, 10.0, 12.0), (14.0, 16.0, 18.0), (20.0, 22.0, 24.0), (26.0, 28.0, 30.0)
+  (32.0, 34.0, 36.0), (38.0, 40.0, 42.0), (44.0, 46.0, 48.0), (50.0, 52.0, 54.0), (56.0, 58.0, 60.0)
+  (62.0, 64.0, 66.0), (68.0, 70.0, 72.0), (74.0, 76.0, 78.0), (80.0, 82.0, 84.0), (86.0, 88.0, 90.0)
+  (92.0, 94.0, 96.0), (98.0, 100.0, 102.0), (104.0, 106.0, 108.0), (110.0, 112.0, 114.0), (116.0, 118.0, 120.0)
+  (122.0, 124.0, 126.0), (-128.0, -126.0, -124.0), (-122.0, -120.0, -118.0), (-116.0, -114.0, -112.0), (-110.0, -108.0, -106.0)
+  (-104.0, -102.0, -100.0), (-98.0, -96.0, -94.0), (-92.0, -90.0, -88.0), (-86.0, -84.0, -82.0), (-80.0, -78.0, -76.0)
+  (-74.0, -72.0, -70.0), (-68.0, -66.0, -64.0), (-62.0, -60.0, -58.0), (-56.0, -54.0, -52.0), (-50.0, -48.0, -46.0) ]
+longIndexer[0x80000000] = -1
+
+Indexer
+[INFO] Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 s - in org.bytedeco.javacpp.IndexerTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   BufferTest.setUpClass:82 » Runtime Process exited with an error: 1
+[ERROR]   EnumTest.setUpClass:96 » Runtime Process exited with an error: 1
+[ERROR]   PointerTest.setUpClass:68 » Runtime Process exited with an error: 1
+[INFO] 
+[ERROR] Tests run: 48, Failures: 0, Errors: 3, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for gQSNSsVq0C8VK0WVXOUiqXPUgVDc3Fdz5UhuxCdJPIE=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4= -DnondexLogging=CONFIG
+[WARNING] org.bytedeco.javacpp.PointerTest#org.bytedeco.javacpp.PointerTest
+[WARNING] org.bytedeco.javacpp.BufferTest#org.bytedeco.javacpp.BufferTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=YYwFEjYw5uFWZpmSuMQyum9opz3lo6ktlsTC2ArmjcM= -DnondexLogging=CONFIG
+[WARNING] org.bytedeco.javacpp.PointerTest#org.bytedeco.javacpp.PointerTest
+[WARNING] org.bytedeco.javacpp.EnumTest#org.bytedeco.javacpp.EnumTest
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=gQSNSsVq0C8VK0WVXOUiqXPUgVDc3Fdz5UhuxCdJPIE= -DnondexLogging=CONFIG
+[WARNING] org.bytedeco.javacpp.PointerTest#org.bytedeco.javacpp.PointerTest
+[WARNING] org.bytedeco.javacpp.EnumTest#org.bytedeco.javacpp.EnumTest
+[WARNING] org.bytedeco.javacpp.BufferTest#org.bytedeco.javacpp.BufferTest
+[INFO] *********
+[INFO] Across all seeds:
+[INFO] org.bytedeco.javacpp.PointerTest#org.bytedeco.javacpp.PointerTest
+[INFO] org.bytedeco.javacpp.BufferTest#org.bytedeco.javacpp.BufferTest
+[INFO] org.bytedeco.javacpp.EnumTest#org.bytedeco.javacpp.EnumTest
+[INFO] Test results can be found at: 
+[INFO] file:///Users/jaewooklee/cs527/final/javacpp/.nondex/LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4=/test_results.html
+[INFO] [NonDex] The id of this run is: LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:03 min
+[INFO] Finished at: 2020-10-17T20:56:38-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:1.1.2:nondex (default-cli) on project javacpp: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/jaewooklee/cs527/final/javacpp/.nondex/LdqSFltGH9SzZQfuFjpn4RanWKFHeuqP0w60XI9Bnv4= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

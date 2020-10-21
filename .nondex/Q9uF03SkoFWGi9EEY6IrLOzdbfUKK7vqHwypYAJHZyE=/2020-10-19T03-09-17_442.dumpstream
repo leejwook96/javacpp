@@ -1,0 +1,297 @@
+# Created at 2020-10-19T03:09:22.425
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:557:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.425
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[0](arg0);
+
+# Created at 2020-10-19T03:09:22.426
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.426
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.426
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.426
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.426
+            ^
+
+# Created at 2020-10-19T03:09:22.426
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:557:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.427
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[0](arg0);
+
+# Created at 2020-10-19T03:09:22.427
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.428
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:560:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.429
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[1](arg0);
+
+# Created at 2020-10-19T03:09:22.429
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.429
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.429
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.429
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.429
+            ^
+
+# Created at 2020-10-19T03:09:22.429
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:560:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.429
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[1](arg0);
+
+# Created at 2020-10-19T03:09:22.429
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.432
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:563:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.432
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[2](arg0);
+
+# Created at 2020-10-19T03:09:22.432
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.432
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.432
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.432
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.433
+            ^
+
+# Created at 2020-10-19T03:09:22.433
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:563:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.433
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[2](arg0);
+
+# Created at 2020-10-19T03:09:22.433
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.435
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:566:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.435
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[3](arg0);
+
+# Created at 2020-10-19T03:09:22.435
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.436
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.436
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.436
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.436
+            ^
+
+# Created at 2020-10-19T03:09:22.436
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:566:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.436
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[3](arg0);
+
+# Created at 2020-10-19T03:09:22.436
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.439
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:569:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.439
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[4](arg0);
+
+# Created at 2020-10-19T03:09:22.439
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.439
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.439
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.439
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.439
+            ^
+
+# Created at 2020-10-19T03:09:22.439
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:569:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.440
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[4](arg0);
+
+# Created at 2020-10-19T03:09:22.440
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.442
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:572:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.442
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[5](arg0);
+
+# Created at 2020-10-19T03:09:22.442
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.443
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.443
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.443
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.443
+            ^
+
+# Created at 2020-10-19T03:09:22.443
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:572:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.443
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[5](arg0);
+
+# Created at 2020-10-19T03:09:22.443
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.446
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:575:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.446
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[6](arg0);
+
+# Created at 2020-10-19T03:09:22.446
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.446
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.446
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.446
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.446
+            ^
+
+# Created at 2020-10-19T03:09:22.447
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:575:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.447
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[6](arg0);
+
+# Created at 2020-10-19T03:09:22.447
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.449
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:578:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.449
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[7](arg0);
+
+# Created at 2020-10-19T03:09:22.450
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.450
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.450
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.450
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.450
+            ^
+
+# Created at 2020-10-19T03:09:22.450
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:578:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.450
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[7](arg0);
+
+# Created at 2020-10-19T03:09:22.451
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.453
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:581:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.453
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[8](arg0);
+
+# Created at 2020-10-19T03:09:22.453
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.453
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.453
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.453
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.453
+            ^
+
+# Created at 2020-10-19T03:09:22.454
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:581:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:09:22.454
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[8](arg0);
+
+# Created at 2020-10-19T03:09:22.454
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.456
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:584:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate'?
+
+# Created at 2020-10-19T03:09:22.456
+    return JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_instances[9](arg0);
+
+# Created at 2020-10-19T03:09:22.456
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:09:22.456
+           JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate
+
+# Created at 2020-10-19T03:09:22.457
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:410:13: note: 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:09:22.457
+static void JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:09:22.457
+            ^
+
+# Created at 2020-10-19T03:09:22.457
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+
+# Created at 2020-10-19T03:09:22.460
+20 errors generated.
+

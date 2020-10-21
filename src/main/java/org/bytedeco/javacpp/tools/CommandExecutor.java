@@ -92,6 +92,7 @@ public class CommandExecutor {
                 }
             }
         }
+        System.out.println(95);
         return pb.inheritIO().start().waitFor();
     }
 }

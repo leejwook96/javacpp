@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=vAM5J+ANCPnmisHmNjzl6YeLA8O0guPQwrkQrqDiGo=
+nondexLogging=CONFIG
+test=

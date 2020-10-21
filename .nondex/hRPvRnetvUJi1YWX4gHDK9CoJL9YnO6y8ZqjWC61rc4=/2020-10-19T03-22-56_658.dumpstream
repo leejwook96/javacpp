@@ -1,0 +1,669 @@
+# Created at 2020-10-19T03:23:19.646
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:560:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.646
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[0](arg0);
+
+# Created at 2020-10-19T03:23:19.646
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.646
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.646
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.646
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.647
+            ^
+
+# Created at 2020-10-19T03:23:19.647
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:560:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.647
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[0](arg0);
+
+# Created at 2020-10-19T03:23:19.647
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.648
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:563:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.648
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[1](arg0);
+
+# Created at 2020-10-19T03:23:19.649
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.649
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.649
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.649
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.649
+            ^
+
+# Created at 2020-10-19T03:23:19.649
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:563:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.649
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[1](arg0);
+
+# Created at 2020-10-19T03:23:19.649
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.651
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:566:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.651
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[2](arg0);
+
+# Created at 2020-10-19T03:23:19.652
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.652
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.652
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.652
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.652
+            ^
+
+# Created at 2020-10-19T03:23:19.652
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:566:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.652
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[2](arg0);
+
+# Created at 2020-10-19T03:23:19.652
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.654
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:569:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.655
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[3](arg0);
+
+# Created at 2020-10-19T03:23:19.655
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.655
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.655
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.655
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.655
+            ^
+
+# Created at 2020-10-19T03:23:19.655
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:569:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.655
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[3](arg0);
+
+# Created at 2020-10-19T03:23:19.656
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.658
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:572:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.658
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[4](arg0);
+
+# Created at 2020-10-19T03:23:19.658
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.658
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.658
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.658
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.658
+            ^
+
+# Created at 2020-10-19T03:23:19.658
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:572:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.659
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[4](arg0);
+
+# Created at 2020-10-19T03:23:19.659
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.661
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:575:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.661
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[5](arg0);
+
+# Created at 2020-10-19T03:23:19.661
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.661
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.661
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.661
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.661
+            ^
+
+# Created at 2020-10-19T03:23:19.662
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:575:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.662
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[5](arg0);
+
+# Created at 2020-10-19T03:23:19.662
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.664
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:578:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.664
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[6](arg0);
+
+# Created at 2020-10-19T03:23:19.664
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.664
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.664
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.664
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.664
+            ^
+
+# Created at 2020-10-19T03:23:19.665
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:578:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.665
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[6](arg0);
+
+# Created at 2020-10-19T03:23:19.665
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.667
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:581:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.667
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[7](arg0);
+
+# Created at 2020-10-19T03:23:19.667
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.667
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.667
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.667
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.668
+            ^
+
+# Created at 2020-10-19T03:23:19.668
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:581:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.668
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[7](arg0);
+
+# Created at 2020-10-19T03:23:19.668
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.670
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:584:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.670
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[8](arg0);
+
+# Created at 2020-10-19T03:23:19.671
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.671
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.671
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.671
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.671
+            ^
+
+# Created at 2020-10-19T03:23:19.671
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:584:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:19.671
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[8](arg0);
+
+# Created at 2020-10-19T03:23:19.671
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.673
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:587:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate'?
+
+# Created at 2020-10-19T03:23:19.674
+    return JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_instances[9](arg0);
+
+# Created at 2020-10-19T03:23:19.674
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:19.674
+           JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate
+
+# Created at 2020-10-19T03:23:19.674
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniPointerTest.cpp:411:13: note: 'JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate' declared here
+
+# Created at 2020-10-19T03:23:19.674
+static void JavaCPP_org_bytedeco_javacpp_PointerTest_00024TestFunction_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:19.674
+            ^
+
+# Created at 2020-10-19T03:23:19.674
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+
+# Created at 2020-10-19T03:23:19.681
+20 errors generated.
+
+# Created at 2020-10-19T03:23:20.458
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:611:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.458
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[0](arg0);
+
+# Created at 2020-10-19T03:23:20.459
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.459
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.459
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.459
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.459
+            ^
+
+# Created at 2020-10-19T03:23:20.459
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:611:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.459
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[0](arg0);
+
+# Created at 2020-10-19T03:23:20.459
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.461
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:614:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.462
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[1](arg0);
+
+# Created at 2020-10-19T03:23:20.462
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.462
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.462
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.462
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.462
+            ^
+
+# Created at 2020-10-19T03:23:20.462
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:614:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.462
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[1](arg0);
+
+# Created at 2020-10-19T03:23:20.462
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.465
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:617:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.465
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[2](arg0);
+
+# Created at 2020-10-19T03:23:20.465
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.465
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.465
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.465
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.466
+            ^
+
+# Created at 2020-10-19T03:23:20.466
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:617:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.466
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[2](arg0);
+
+# Created at 2020-10-19T03:23:20.466
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.469
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:620:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.469
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[3](arg0);
+
+# Created at 2020-10-19T03:23:20.469
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.469
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.469
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.470
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.470
+            ^
+
+# Created at 2020-10-19T03:23:20.470
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:620:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.470
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[3](arg0);
+
+# Created at 2020-10-19T03:23:20.470
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.473
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:623:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.473
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[4](arg0);
+
+# Created at 2020-10-19T03:23:20.473
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.473
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.473
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.473
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.473
+            ^
+
+# Created at 2020-10-19T03:23:20.473
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:623:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.473
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[4](arg0);
+
+# Created at 2020-10-19T03:23:20.473
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.476
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:626:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.476
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[5](arg0);
+
+# Created at 2020-10-19T03:23:20.476
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.476
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.477
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.477
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.477
+            ^
+
+# Created at 2020-10-19T03:23:20.477
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:626:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.477
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[5](arg0);
+
+# Created at 2020-10-19T03:23:20.477
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.480
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:629:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.480
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[6](arg0);
+
+# Created at 2020-10-19T03:23:20.480
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.480
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.480
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.480
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.481
+            ^
+
+# Created at 2020-10-19T03:23:20.481
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:629:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.481
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[6](arg0);
+
+# Created at 2020-10-19T03:23:20.481
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.483
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:632:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.483
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[7](arg0);
+
+# Created at 2020-10-19T03:23:20.484
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.484
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.484
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.484
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.484
+            ^
+
+# Created at 2020-10-19T03:23:20.484
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:632:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.484
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[7](arg0);
+
+# Created at 2020-10-19T03:23:20.484
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.487
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:635:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.487
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[8](arg0);
+
+# Created at 2020-10-19T03:23:20.487
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.487
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.488
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.488
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.488
+            ^
+
+# Created at 2020-10-19T03:23:20.488
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:635:12: error: subscript of pointer to function type 'void (void *)'
+
+# Created at 2020-10-19T03:23:20.488
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[8](arg0);
+
+# Created at 2020-10-19T03:23:20.488
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.491
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:638:12: error: use of undeclared identifier 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances'; did you mean 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate'?
+
+# Created at 2020-10-19T03:23:20.491
+    return JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_instances[9](arg0);
+
+# Created at 2020-10-19T03:23:20.491
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Created at 2020-10-19T03:23:20.491
+           JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate
+
+# Created at 2020-10-19T03:23:20.492
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:434:13: note: 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate' declared here
+
+# Created at 2020-10-19T03:23:20.492
+static void JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_deallocate(void *p) { 
+
+# Created at 2020-10-19T03:23:20.492
+            ^
+
+# Created at 2020-10-19T03:23:20.492
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+
+# Created at 2020-10-19T03:23:20.493
+20 errors generated.
+
+# Created at 2020-10-19T03:23:21.280
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:562:54: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:23:21.281
+        signed char* (* rptr)(signed char* arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:23:21.281
+                                                     ^
+
+# Created at 2020-10-19T03:23:21.281
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:578:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:23:21.281
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:23:21.281
+    ^
+
+# Created at 2020-10-19T03:23:21.282
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:604:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:23:21.282
+end:
+
+# Created at 2020-10-19T03:23:21.282
+^
+
+# Created at 2020-10-19T03:23:21.282
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:604:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:23:21.282
+end:
+
+# Created at 2020-10-19T03:23:21.282
+   ^
+
+# Created at 2020-10-19T03:23:21.282
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:606:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:23:21.282
+    if (exc != NULL) {
+
+# Created at 2020-10-19T03:23:21.282
+    ^
+
+# Created at 2020-10-19T03:23:21.282
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:615:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:23:21.283
+    } else {
+
+# Created at 2020-10-19T03:23:21.283
+      ^
+
+# Created at 2020-10-19T03:23:21.283
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:618:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:23:21.283
+    return rptr;
+
+# Created at 2020-10-19T03:23:21.283
+    ^
+
+# Created at 2020-10-19T03:23:21.284
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:987:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:23:21.284
+}
+
+# Created at 2020-10-19T03:23:21.285
+^
+
+# Created at 2020-10-19T03:23:21.289
+8 errors generated.
+

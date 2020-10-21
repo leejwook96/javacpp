@@ -1163,11 +1163,13 @@ public class Loader {
             return null;
         }
 
+        System.out.println(1166);
         // when no extensions are given by user, but we are in library loading mode, try to load extensions anyway
         if (!checkPlatform(cls, properties, properties.getProperty("platform.extension") == null)) {
             throw new UnsatisfiedLinkError("Platform \"" + properties.getProperty("platform") + "\" not supported by " + cls);
         }
 
+        System.out.println(1172);
         // Find the top enclosing class, to match the library filename
         cls = getEnclosingClass(cls);
         ClassProperties p = loadProperties(cls, properties, true);
@@ -1177,18 +1179,21 @@ public class Loader {
         if (targets.isEmpty()) {
             if (p.getInheritedClasses() != null) {
                 for (Class c : p.getInheritedClasses()) {
+                    System.out.println(c.getName());
                     targets.add(c.getName());
                 }
             }
             targets.add(cls.getName());
         }
 
+        System.out.println(1188);
         // Make sure that we also initialize the class that was passed explicitly
         if (!targets.contains(classToLoad.getName())) {
             targets.add(classToLoad.getName());
         }
 
         for (String s : targets) {
+            System.out.println("Target: " + s);
             try {
                 if (logger.isDebugEnabled()) {
                     logger.debug("Loading class " + s);
@@ -1204,6 +1209,7 @@ public class Loader {
             }
         }
 
+        System.out.println(1210);
         String cacheDir = null;
         try {
             cacheDir = getCacheDir().getCanonicalPath();
@@ -1537,6 +1543,7 @@ public class Loader {
             loadGlobally = true;
             libnameversion = libnameversion.substring(0, libnameversion.length() - 1);
         }
+        System.out.println("1546 " + libnameversion);
         String[] split = libnameversion.split("#");
         String libnameversion2 = split[0];
         if (split.length > 1 && split[1].length() > 0) {
@@ -1544,6 +1551,7 @@ public class Loader {
         }
 
         // If we do not already have the native library file ...
+        System.out.println("1553 " + libnameversion2);
         String filename = loadedLibraries.get(libnameversion2);
         UnsatisfiedLinkError loadError = null;
         classStack.get().push(cls);

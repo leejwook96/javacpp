@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: org.bytedeco.javacpp.EnumTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.167 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+testEnum(org.bytedeco.javacpp.EnumTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: org.bytedeco.javacpp.EnumTest.Char2Bool(Lorg/bytedeco/javacpp/EnumTest$ByteEnum;)Lorg/bytedeco/javacpp/EnumTest$BoolEnum;
+	at org.bytedeco.javacpp.EnumTest.Char2Bool(Native Method)
+	at org.bytedeco.javacpp.EnumTest.testEnum(EnumTest.java:105)
+

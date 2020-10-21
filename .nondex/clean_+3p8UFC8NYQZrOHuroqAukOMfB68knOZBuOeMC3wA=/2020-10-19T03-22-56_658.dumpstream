@@ -1,0 +1,24 @@
+# Created at 2020-10-19T03:22:56.658
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:767:21: warning: unused variable 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_call_callbacks' [-Wunused-variable]
+
+# Created at 2020-10-19T03:22:56.658
+static ::LongEnum (*JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_call_callbacks[10])(::CharEnum arg0) = {
+
+# Created at 2020-10-19T03:22:56.658
+                    ^
+
+# Created at 2020-10-19T03:22:56.790
+1 warning generated.
+
+# Created at 2020-10-19T03:22:57.579
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:714:23: warning: unused variable 'JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_call_callbacks' [-Wunused-variable]
+
+# Created at 2020-10-19T03:22:57.580
+static signed char* (*JavaCPP_org_bytedeco_javacpp_BufferTest_00024BufferCallback_call_callbacks[10])(signed char* arg0) = {
+
+# Created at 2020-10-19T03:22:57.580
+                      ^
+
+# Created at 2020-10-19T03:22:57.751
+1 warning generated.
+

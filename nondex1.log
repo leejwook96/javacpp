@@ -1,0 +1,285 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< org.bytedeco:javacpp >------------------------
+[INFO] Building JavaCPP 1.5.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> nondex-maven-plugin:1.1.2:nondex (default-cli) > test-compile @ javacpp >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ javacpp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5.2:descriptor (default-descriptor) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 3 mojo descriptors.
+[INFO] 
+[INFO] --- bnd-maven-plugin:4.2.0:bnd-process (default) @ javacpp ---
+[WARNING] Cannot consider developer in line '54' of file '/Users/jaewooklee/cs527/final/javacpp/pom.xml' for bundle header 'Bundle-Developers' as it does not contain the mandatory id.
+[WARNING] /Users/jaewooklee/cs527/final/javacpp/pom.xml [0:0]: Export org.bytedeco.javacpp,  has 1,  private references [org.bytedeco.javacpp.presets]
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javacpp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ javacpp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< nondex-maven-plugin:1.1.2:nondex (default-cli) < test-compile @ javacpp <<<
+[INFO] 
+[INFO] 
+[INFO] --- nondex-maven-plugin:1.1.2:nondex (default-cli) @ javacpp ---
+INFO: The original argline is: 
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=.nondex
+nondexExecid=clean_VtE8xVppwQ9oZeldIlU+xtFfnaPjiglQsNv69hyK7A=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Builder
+1180
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+1182
+1185
+100
+Loader
+1166
+1172
+1188
+Target: org.bytedeco.javacpp.EnumTest
+1210
+1546 jniEnumTest
+1553 jniEnumTest
+Enum
+BYTE
+123
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.141 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] testEnum(org.bytedeco.javacpp.EnumTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: org.bytedeco.javacpp.EnumTest.Char2Bool(Lorg/bytedeco/javacpp/EnumTest$ByteEnum;)Lorg/bytedeco/javacpp/EnumTest$BoolEnum;
+	at org.bytedeco.javacpp.EnumTest.Char2Bool(Native Method)
+	at org.bytedeco.javacpp.EnumTest.testEnum(EnumTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   EnumTest.testEnum:115->Char2Bool:-2 UnsatisfiedLink org.bytedeco.javacpp.EnumT...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for clean_VtE8xVppwQ9oZeldIlU+xtFfnaPjiglQsNv69hyK7A=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+1180
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+1182
+1185
+100
+Loader
+1166
+1172
+1188
+Target: org.bytedeco.javacpp.EnumTest
+1210
+1546 jniEnumTest
+1553 jniEnumTest
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Enum
+BYTE
+123
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.009 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] testEnum(org.bytedeco.javacpp.EnumTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: org.bytedeco.javacpp.EnumTest.Char2Bool(Lorg/bytedeco/javacpp/EnumTest$ByteEnum;)Lorg/bytedeco/javacpp/EnumTest$BoolEnum;
+	at org.bytedeco.javacpp.EnumTest.Char2Bool(Native Method)
+	at org.bytedeco.javacpp.EnumTest.testEnum(EnumTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   EnumTest.testEnum:115->Char2Bool:-2 UnsatisfiedLink org.bytedeco.javacpp.EnumT...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=K7NYHJ8FdlcR6lfH8u+38qqmzi0S33ZRHSEkQTjU950=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+1180
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+1182
+1185
+100
+Loader
+1166
+1172
+1188
+Target: org.bytedeco.javacpp.EnumTest
+1210
+1546 jniEnumTest
+1553 jniEnumTest
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Enum
+BYTE
+123
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] testEnum(org.bytedeco.javacpp.EnumTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: org.bytedeco.javacpp.EnumTest.Char2Bool(Lorg/bytedeco/javacpp/EnumTest$ByteEnum;)Lorg/bytedeco/javacpp/EnumTest$BoolEnum;
+	at org.bytedeco.javacpp.EnumTest.Char2Bool(Native Method)
+	at org.bytedeco.javacpp.EnumTest.testEnum(EnumTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   EnumTest.testEnum:115->Char2Bool:-2 UnsatisfiedLink org.bytedeco.javacpp.EnumT...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for K7NYHJ8FdlcR6lfH8u+38qqmzi0S33ZRHSEkQTjU950=
+INFO: Adding excluded groups to newly created one
+INFO: Creating new argline for Surefire
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexJarDir=/Users/jaewooklee/cs527/final/javacpp/.nondex
+nondexExecid=AARVkcK0XRI9AGowxcSSrB0xGDayL5SGDSWBOX6J0ss=
+nondexLogging=CONFIG
+test=
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+Builder
+1180
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/jnijavacpp.cpp
+Info: Generating /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+Info: Nothing generated for /Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp
+1182
+1185
+100
+Loader
+1166
+1172
+1188
+Target: org.bytedeco.javacpp.EnumTest
+1210
+1546 jniEnumTest
+1553 jniEnumTest
+[INFO] Running org.bytedeco.javacpp.EnumTest
+Enum
+BYTE
+123
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in org.bytedeco.javacpp.EnumTest
+[ERROR] testEnum(org.bytedeco.javacpp.EnumTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.UnsatisfiedLinkError: org.bytedeco.javacpp.EnumTest.Char2Bool(Lorg/bytedeco/javacpp/EnumTest$ByteEnum;)Lorg/bytedeco/javacpp/EnumTest$BoolEnum;
+	at org.bytedeco.javacpp.EnumTest.Char2Bool(Native Method)
+	at org.bytedeco.javacpp.EnumTest.testEnum(EnumTest.java:115)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   EnumTest.testEnum:115->Char2Bool:-2 UnsatisfiedLink org.bytedeco.javacpp.EnumT...
+[INFO] 
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0
+[INFO] 
+INFO: Surefire failed when running tests for AARVkcK0XRI9AGowxcSSrB0xGDayL5SGDSWBOX6J0ss=
+[INFO] NonDex SUMMARY:
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=974622 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=K7NYHJ8FdlcR6lfH8u+38qqmzi0S33ZRHSEkQTjU950= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=1016066 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexExecid=AARVkcK0XRI9AGowxcSSrB0xGDayL5SGDSWBOX6J0ss= -DnondexLogging=CONFIG
+[INFO] No Test Failed with this configuration.
+[INFO] *********
+[INFO] Tests are failing without NonDex.
+[INFO] *********
+[INFO] mvn nondex:nondex  -DnondexFilter='.*' -DnondexMode=FULL -DnondexSeed=933178 -DnondexStart=0 -DnondexEnd=9223372036854775807 -DnondexPrintstack=false -DnondexDir="/Users/jaewooklee/cs527/final/javacpp/.nondex" -DnondexJarDir=".nondex" -DnondexExecid=clean_VtE8xVppwQ9oZeldIlU+xtFfnaPjiglQsNv69hyK7A= -DnondexLogging=CONFIG
+[WARNING] org.bytedeco.javacpp.EnumTest#testEnum
+[INFO] *********
+[INFO] Across all seeds:
+[INFO] Test results can be found at: 
+[INFO] file:///Users/jaewooklee/cs527/final/javacpp/.nondex/F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk=/test_results.html
+[INFO] [NonDex] The id of this run is: F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk=
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.521 s
+[INFO] Finished at: 2020-10-19T21:30:58-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal edu.illinois:nondex-maven-plugin:1.1.2:nondex (default-cli) on project javacpp: Unable to execute mojo: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /Users/jaewooklee/cs527/final/javacpp/.nondex/F+NRmCBEztSBt2gukynqsw+z99MoipBbGog4uK7sbzk= for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

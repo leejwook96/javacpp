@@ -1,0 +1,75 @@
+# Created at 2020-10-19T03:08:49.502
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:559:54: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T03:08:49.504
+        signed char* (* rptr)(signed char* arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T03:08:49.508
+                                                     ^
+
+# Created at 2020-10-19T03:08:49.508
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:575:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:08:49.509
+    if (env == NULL) {
+
+# Created at 2020-10-19T03:08:49.509
+    ^
+
+# Created at 2020-10-19T03:08:49.510
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:601:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T03:08:49.510
+end:
+
+# Created at 2020-10-19T03:08:49.511
+^
+
+# Created at 2020-10-19T03:08:49.511
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:601:4: error: expected unqualified-id
+
+# Created at 2020-10-19T03:08:49.511
+end:
+
+# Created at 2020-10-19T03:08:49.511
+   ^
+
+# Created at 2020-10-19T03:08:49.512
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:603:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:08:49.512
+    if (exc != NULL) {
+
+# Created at 2020-10-19T03:08:49.512
+    ^
+
+# Created at 2020-10-19T03:08:49.514
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:612:7: error: expected unqualified-id
+
+# Created at 2020-10-19T03:08:49.515
+    } else {
+
+# Created at 2020-10-19T03:08:49.516
+      ^
+
+# Created at 2020-10-19T03:08:49.520
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:615:5: error: expected unqualified-id
+
+# Created at 2020-10-19T03:08:49.521
+    return rptr;
+
+# Created at 2020-10-19T03:08:49.521
+    ^
+
+# Created at 2020-10-19T03:08:49.522
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniBufferTest.cpp:984:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T03:08:49.523
+}
+
+# Created at 2020-10-19T03:08:49.524
+^
+
+# Created at 2020-10-19T03:08:49.533
+8 errors generated.
+

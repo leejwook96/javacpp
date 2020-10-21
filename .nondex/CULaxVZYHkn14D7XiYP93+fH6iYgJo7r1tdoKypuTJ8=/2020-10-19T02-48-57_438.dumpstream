@@ -1,0 +1,75 @@
+# Created at 2020-10-19T02:49:00.860
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:616:50: error: use of undeclared identifier 'ptr'
+
+# Created at 2020-10-19T02:49:00.860
+        ::LongEnum (* rptr)(::CharEnum arg0) = (*ptr->ptr)();
+
+# Created at 2020-10-19T02:49:00.861
+                                                 ^
+
+# Created at 2020-10-19T02:49:00.861
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:632:5: error: expected unqualified-id
+
+# Created at 2020-10-19T02:49:00.861
+    if (env == NULL) {
+
+# Created at 2020-10-19T02:49:00.861
+    ^
+
+# Created at 2020-10-19T02:49:00.861
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:654:1: error: unknown type name 'end'
+
+# Created at 2020-10-19T02:49:00.861
+end:
+
+# Created at 2020-10-19T02:49:00.861
+^
+
+# Created at 2020-10-19T02:49:00.862
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:654:4: error: expected unqualified-id
+
+# Created at 2020-10-19T02:49:00.862
+end:
+
+# Created at 2020-10-19T02:49:00.862
+   ^
+
+# Created at 2020-10-19T02:49:00.862
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:659:5: error: expected unqualified-id
+
+# Created at 2020-10-19T02:49:00.862
+    if (exc != NULL) {
+
+# Created at 2020-10-19T02:49:00.862
+    ^
+
+# Created at 2020-10-19T02:49:00.862
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:668:7: error: expected unqualified-id
+
+# Created at 2020-10-19T02:49:00.862
+    } else {
+
+# Created at 2020-10-19T02:49:00.863
+      ^
+
+# Created at 2020-10-19T02:49:00.863
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:671:5: error: expected unqualified-id
+
+# Created at 2020-10-19T02:49:00.863
+    return rval;
+
+# Created at 2020-10-19T02:49:00.863
+    ^
+
+# Created at 2020-10-19T02:49:00.863
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:761:1: error: extraneous closing brace ('}')
+
+# Created at 2020-10-19T02:49:00.863
+}
+
+# Created at 2020-10-19T02:49:00.863
+^
+
+# Created at 2020-10-19T02:49:00.867
+8 errors generated.
+

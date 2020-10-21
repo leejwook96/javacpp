@@ -45,7 +45,7 @@ import static org.junit.Assert.*;
  *
  * @author Samuel Audet
  */
-@Platform(define = {"NATIVE_ALLOCATOR malloc", "NATIVE_DEALLOCATOR free"})
+@Platform(extension = {"-ext1","-ext2"}, define = {"NATIVE_ALLOCATOR malloc", "NATIVE_DEALLOCATOR free"})
 public class PointerTest {
 
     static final int allocatorMax = 11;
@@ -65,7 +65,9 @@ public class PointerTest {
         System.out.println("Builder");
         Class c = PointerTest.class;
         Builder builder = new Builder().classesOrPackages(c.getName());
+        builder.deleteJniFiles(false);
         File[] outputFiles = builder.build();
+        
 
         System.out.println("Loader");
         Loader.load(c);
@@ -73,10 +75,14 @@ public class PointerTest {
         int totalProcessors = Loader.totalProcessors();
         int totalCores = Loader.totalCores();
         int totalChips = Loader.totalChips();
+        System.out.println(76);
         System.out.println(totalProcessors + " " + totalCores + " " + totalChips);
+        System.out.println(Runtime.getRuntime().availableProcessors());
         assertTrue(totalProcessors > 0 && totalProcessors >= Runtime.getRuntime().availableProcessors());
         assertTrue(totalCores > 0 && totalCores <= totalProcessors);
         assertTrue(totalChips > 0 && totalChips <= totalCores);
+
+        System.out.println(Loader.getJavaVM());
 
         assertNotEquals(null, Loader.getJavaVM());
     }

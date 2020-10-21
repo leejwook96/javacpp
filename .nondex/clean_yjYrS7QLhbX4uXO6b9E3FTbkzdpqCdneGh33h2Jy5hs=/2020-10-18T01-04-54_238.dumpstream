@@ -1,0 +1,12 @@
+# Created at 2020-10-18T01:04:54.238
+/Users/jaewooklee/cs527/final/javacpp/target/test-classes/org/bytedeco/javacpp/jniEnumTest.cpp:767:21: warning: unused variable 'JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_call_callbacks' [-Wunused-variable]
+
+# Created at 2020-10-18T01:04:54.238
+static ::LongEnum (*JavaCPP_org_bytedeco_javacpp_EnumTest_00024EnumCallback_call_callbacks[10])(::CharEnum arg0) = {
+
+# Created at 2020-10-18T01:04:54.238
+                    ^
+
+# Created at 2020-10-18T01:04:54.373
+1 warning generated.
+

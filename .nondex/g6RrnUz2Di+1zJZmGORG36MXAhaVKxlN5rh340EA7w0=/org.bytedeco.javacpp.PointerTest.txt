@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.bytedeco.javacpp.PointerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.796 s <<< FAILURE! - in org.bytedeco.javacpp.PointerTest
+org.bytedeco.javacpp.PointerTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.RuntimeException: Process exited with an error: 1
+	at org.bytedeco.javacpp.PointerTest.setUpClass(PointerTest.java:68)
+
